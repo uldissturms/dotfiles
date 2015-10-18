@@ -53,5 +53,4 @@ set secure "disallow dangerous commands in per folder configs
 
 syntax enable
 set background=dark
-let g:solarized_termcolors=256
 colorscheme solarized

@@ -10,6 +10,7 @@ Plugin 'ctrlp.vim'
 Plugin 'jshint.vim'
 Plugin 'Syntastic'
 Plugin 'editorconfig-vim'
+Plugin 'altercation/vim-colors-solarized'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -50,3 +51,7 @@ cmap w!! %!sudo tee > /dev/null %
 set exrc "allow per folder configs
 set secure "disallow dangerous commands in per folder configs
 
+syntax enable
+set background=dark
+let g:solarized_termcolors=256
+colorscheme solarized

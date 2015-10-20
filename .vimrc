@@ -54,3 +54,4 @@ set secure "disallow dangerous commands in per folder configs
 syntax enable
 set background=dark
 colorscheme solarized
+inoremap jj <ESC>

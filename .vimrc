@@ -7,7 +7,7 @@ call vundle#begin()
 
 Plugin 'gmarik/Vundle.vim'
 Plugin 'ctrlp.vim'
-Plugin 'jshint.vim'
+Plugin 'elzr/vim-json'
 Plugin 'Syntastic'
 Plugin 'editorconfig-vim'
 Plugin 'altercation/vim-colors-solarized'

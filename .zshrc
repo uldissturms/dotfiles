@@ -86,9 +86,10 @@ source $ZSH/oh-my-zsh.sh
 function code () { VSCODE_CWD="$PWD" open -n -b "com.microsoft.VSCode" --args $*; }
 function light() {
   if [ -z "$2" ]
-    then src="pbpaste"
+  then
+    src=$(pbpaste)
   else
-    src="cat $2"
+    src=$(cat $2)
   fi
-  $src | highlight -O rtf --syntax $1 --font Inconsolata --style solarized-dark --font-size 24 | pbcopy
+  echo $src | highlight -O rtf --syntax $1 --font Inconsolata --style solarized-dark --font-size 24 | pbcopy
 }

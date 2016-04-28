@@ -55,3 +55,4 @@ syntax enable
 set background=dark
 colorscheme solarized
 inoremap jj <ESC>
+set wildignore+=*/.git/*,*/.hg/*,*/.svn/*,*/.idea/*,*/.DS_Store,*/vendor,*/node_modules

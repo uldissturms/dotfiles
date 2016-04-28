@@ -11,6 +11,7 @@ Plugin 'elzr/vim-json'
 Plugin 'Syntastic'
 Plugin 'editorconfig-vim'
 Plugin 'altercation/vim-colors-solarized'
+Plugin 'scrooloose/nerdtree'
 
 call vundle#end()            " required
 filetype plugin indent on    " required

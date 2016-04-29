@@ -8,10 +8,11 @@ call vundle#begin()
 Plugin 'gmarik/Vundle.vim'
 Plugin 'ctrlp.vim'
 Plugin 'elzr/vim-json'
-Plugin 'Syntastic'
 Plugin 'editorconfig-vim'
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'scrooloose/nerdtree'
+Plugin 'scrooloose/syntastic'
+Plugin 'eslint/eslint'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -57,3 +58,13 @@ set background=dark
 colorscheme solarized
 inoremap jj <ESC>
 set wildignore+=*/.git/*,*/.hg/*,*/.svn/*,*/.idea/*,*/.DS_Store,*/vendor,*/node_modules
+
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
+let g:syntastic_javascript_checkers = ['eslint']

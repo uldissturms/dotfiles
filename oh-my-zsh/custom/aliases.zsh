@@ -1,5 +1,7 @@
+alias ..='cd ..'
 alias cdd='cd -'
 alias cdg='cd ~/git'
+alias la='la -lah'
 
 function code () { VSCODE_CWD="$PWD" open -n -b "com.microsoft.VSCode" --args $*; }
 function light() {

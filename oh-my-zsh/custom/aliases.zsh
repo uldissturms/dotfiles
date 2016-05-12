@@ -1,3 +1,4 @@
+alias vim='/usr/local/bin/vim'
 alias ..='cd ..'
 alias cdd='cd -'
 alias cdg='cd ~/git'

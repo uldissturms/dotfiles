@@ -13,6 +13,7 @@ Plugin 'altercation/vim-colors-solarized'
 Plugin 'scrooloose/nerdtree'
 Plugin 'scrooloose/syntastic'
 Plugin 'eslint/eslint'
+Plugin 'jlanzarotta/bufexplorer'
 
 call vundle#end()            " required
 filetype plugin indent on    " required

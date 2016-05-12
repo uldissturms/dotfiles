@@ -1,3 +1,4 @@
+brew install vim
 brew install ab
 brew install docker-machine
 brew install jq

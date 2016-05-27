@@ -36,6 +36,9 @@ set shiftwidth=2
 set softtabstop=2
 set expandtab
 
+"quirks
+set backspace=2 "make backspace work like most other apps
+
 set complete+=k "dictionary autocomplete
 
 set number "view line numbers

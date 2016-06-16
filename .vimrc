@@ -14,8 +14,6 @@ Plugin 'scrooloose/nerdtree'
 Plugin 'scrooloose/syntastic'
 Plugin 'eslint/eslint'
 Plugin 'jlanzarotta/bufexplorer'
-Plugin 'vim-airline/vim-airline'
-Plugin 'vim-airline/vim-airline-themes'
 
 call vundle#end()            " required
 filetype plugin indent on    " required

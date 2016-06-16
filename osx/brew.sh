@@ -15,3 +15,4 @@ brew install terraform
 brew install mono
 brew install gource
 brew install autojump
+brew install ack

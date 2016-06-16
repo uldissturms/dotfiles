@@ -13,7 +13,7 @@ Plugin 'altercation/vim-colors-solarized'
 Plugin 'scrooloose/nerdtree'
 Plugin 'scrooloose/syntastic'
 Plugin 'eslint/eslint'
-Plugin 'jlanzarotta/bufexplorer'
+Plugin 'mileszs/ack.vim'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -60,18 +60,17 @@ set secure "disallow dangerous commands in per folder configs
 syntax enable
 set background=dark
 colorscheme solarized
-inoremap jj <ESC>
-set wildignore+=*/.git/*,*/.hg/*,*/.svn/*,*/.idea/*,*/.DS_Store,*/vendor,*/node_modules
 
-set statusline+=%#warningmsg#
-set statusline+=%{SyntasticStatuslineFlag()}
-set statusline+=%*
+"custom key mappings
+inoremap jj <ESC>
+let mapleader=","
+
+set wildignore+=*/.git/*,*/.hg/*,*/.svn/*,*/.idea/*,*/.DS_Store,*/vendor,*/node_modules
 
 let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
-let g:syntastic_javascript_checkers = ['eslint']
+let g:syntastic_javascript_checkers = ['standard']
 
-let g:airline#extensions#tabline#enabled = 1
 set laststatus=2

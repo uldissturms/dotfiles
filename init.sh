@@ -12,3 +12,4 @@ ln -sv ~/.dotfiles/.zshrc ~
 cp ~/.dotfiles/oh-my-zsh/custom/* ~/.oh-my-zsh/custom/
 
 ln -sv ~/.dotfiles/.tmux.conf ~
+ln -sv ~/.dotfiles/.ackrc ~

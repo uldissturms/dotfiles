@@ -10,3 +10,5 @@ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/i
 curl -o ~/.oh-my-zsh/themes/gitster.zsh-theme https://raw.githubusercontent.com/shashankmehta/dotfiles/master/thesetup/zsh/.oh-my-zsh/custom/themes/gitster.zsh-theme
 ln -sv ~/.dotfiles/.zshrc ~
 cp ~/.dotfiles/oh-my-zsh/custom/* ~/.oh-my-zsh/custom/
+
+ln -sv ~/.dotfiles/.tmux.conf ~

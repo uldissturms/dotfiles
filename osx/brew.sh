@@ -17,3 +17,4 @@ brew install gource
 brew install autojump
 brew install ack
 brew install htop
+brew cask install haskell-platform

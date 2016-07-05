@@ -61,6 +61,8 @@ set background=dark
 colorscheme solarized
 
 "custom key mappings
+nnoremap <TAB> <C-w>w
+nnoremap <S-TAB> <C-w>W
 inoremap jj <ESC>
 let mapleader=","
 

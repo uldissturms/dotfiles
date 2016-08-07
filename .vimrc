@@ -39,6 +39,7 @@ set backspace=2 "make backspace work like most other apps
 set complete+=k "dictionary autocomplete
 
 set number "view line numbers
+set ruler "view current position
 highlight LineNr ctermfg=grey
 
 set listchars=tab:▸▸,trail:~ "nicer whitespace chars

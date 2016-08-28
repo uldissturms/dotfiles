@@ -67,6 +67,13 @@ nnoremap <S-TAB> <C-w>W
 inoremap jj <ESC>
 let mapleader=","
 
+" seach using regexes
+nnoremap / /\v
+vnoremap / /\v
+
+set ignorecase
+set smartcase
+
 set wildignore+=*/.git/*,*/.hg/*,*/.svn/*,*/.idea/*,*/.DS_Store,*/vendor,*/node_modules
 
 let g:syntastic_always_populate_loc_list = 1

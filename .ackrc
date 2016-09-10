@@ -1,1 +1,8 @@
 --ignore-dir=node_modules
+--ignore-dir=.tmp
+--ignore-dir=tmp
+--sort-files
+--color
+--follow
+--group
+--color-filename=white

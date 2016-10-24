@@ -1,10 +1,10 @@
-export ZSH=/Users/uldis/.oh-my-zsh
+export ZSH=$HOME/.oh-my-zsh
 ZSH_THEME="gitster"
 
 plugins=(git)
 
 export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
-export GOPATH="/Users/uldis/go"
+export GOPATH="$HOME/go"
 
 source $ZSH/oh-my-zsh.sh
 

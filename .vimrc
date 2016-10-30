@@ -14,6 +14,7 @@ Plugin 'scrooloose/syntastic'
 Plugin 'eslint/eslint'
 Plugin 'mileszs/ack.vim'
 Plugin 'terryma/vim-multiple-cursors'
+Plugin 'embear/vim-localvimrc'
 
 call vundle#end()            " required
 filetype plugin indent on    " required

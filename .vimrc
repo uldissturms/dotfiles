@@ -18,6 +18,7 @@ Plugin 'terryma/vim-multiple-cursors'
 Plugin 'thinca/vim-localrc'
 Plugin 'heavenshell/vim-jsdoc'
 Plugin 'valloric/youcompleteme'
+Plugin 'marijnh/tern_for_vim'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -88,3 +89,8 @@ let g:syntastic_check_on_wq = 0
 let g:syntastic_javascript_checkers = ['standard']
 
 set laststatus=2
+
+"tern settings
+let g:tern_show_argument_hints='on_hold'
+let g:tern_map_keys=1
+let g:tern_map_prefix='<leader>'

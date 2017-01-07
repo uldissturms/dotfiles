@@ -89,6 +89,7 @@ let g:syntastic_check_on_wq = 0
 let g:syntastic_javascript_checkers = ['standard']
 
 set laststatus=2
+set completeopt-=preview
 
 "tern settings
 let g:tern_show_argument_hints='on_hold'

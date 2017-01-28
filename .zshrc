@@ -11,3 +11,5 @@ export GOPATH="$HOME/go"
 source $ZSH/oh-my-zsh.sh
 
 [[ -s $(brew --prefix)/etc/profile.d/autojump.sh ]] && . $(brew --prefix)/etc/profile.d/autojump.sh
+
+eval "$(direnv hook zsh)"

@@ -1,5 +1,6 @@
 export SHELL=/bin/zsh
 export ZSH=$HOME/.oh-my-zsh
+export EDITOR=/usr/bin/vi
 ZSH_THEME="gitster"
 
 plugins=(git)

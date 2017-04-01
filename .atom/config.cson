@@ -1,0 +1,7 @@
+"*":
+  "atom-idle-autosave":
+    debounce: 1000
+  autosave:
+    enabled: true
+  "markdown-preview":
+    useGitHubStyle: true

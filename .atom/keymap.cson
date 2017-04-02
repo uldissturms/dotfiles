@@ -2,6 +2,9 @@
   'ctrl-i':     'cursor-history:next'
   'ctrl-o':     'cursor-history:prev'
 
+'atom-text-editor.vim-mode-plus.insert-mode':
+  'j j': 'vim-mode-plus:activate-normal-mode'
+
 'atom-text-editor.vim-mode-plus.normal-mode':
   'g f':      'open-this:here'
   'ctrl-w f': 'open-this:split-down'

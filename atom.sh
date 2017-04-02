@@ -12,5 +12,5 @@ apm install open-this
 # linting & style
 apm install linter
 apm install linter-js-standard
-apm install linter-write-good
-apm install atom-beautify
+apm install linter-shellcheck
+apm install linter

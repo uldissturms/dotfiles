@@ -1,7 +1,19 @@
 "*":
+  "advanced-open-file":
+    createDirectories: true
+    createFileInstantly: true
+    fuzzyMatch: true
+    helmDirSwitch: true
   "atom-idle-autosave":
     debounce: 1000
   autosave:
     enabled: true
+  core:
+    projectHome: "/Users/uldis/git"
+    telemetryConsent: "no"
+  "cursor-history": {}
+  "exception-reporting":
+    userId: "16fa58e8-7cea-fdcb-0886-67131f22ddda"
+  "linter-ui-default": {}
   "markdown-preview":
     useGitHubStyle: true

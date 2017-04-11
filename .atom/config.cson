@@ -9,10 +9,13 @@
   autosave:
     enabled: true
   core:
+    audioBeep: false
     disabledPackages: [
       "welcome"
+      "autosave"
     ]
     projectHome: "/Users/uldis/git"
+    restorePreviousWindowsOnStart: false
     telemetryConsent: "no"
   "cursor-history": {}
   "exception-reporting":
@@ -22,5 +25,6 @@
   "linter-ui-default": {}
   "markdown-preview":
     useGitHubStyle: true
+  "tree-view": {}
   welcome:
     showOnStartup: false

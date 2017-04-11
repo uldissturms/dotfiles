@@ -1,5 +1,6 @@
 ### Useful software for Windows:
-- [ConEmu](https://conemu.github.io/)
-- [Atom](https://atom.io/)
-- [Ditto](https://sourceforge.net/projects/ditto-cp) or [ClipX](http://bluemars.org/clipx/)
-- [AutoHotKey](https://autohotkey.com/)
+- [Scoop](http://scoop.sh/) - Automate package installation
+- [ConEmu](https://conemu.github.io/) - Advanced terminal
+- [Atom](https://atom.io/) - Hackable text editor
+- [Ditto](https://sourceforge.net/projects/ditto-cp) or [ClipX](http://bluemars.org/clipx/) - Clipboard manager
+- [AutoHotKey](https://autohotkey.com/) - Configurable hot keys

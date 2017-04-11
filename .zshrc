@@ -5,7 +5,7 @@ ZSH_THEME="gitster"
 
 plugins=(git)
 
-export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:$HOME/.rvm/bin"
 export GOPATH="$HOME/go"
 
 source $ZSH/oh-my-zsh.sh
@@ -13,3 +13,6 @@ source $ZSH/oh-my-zsh.sh
 [[ -s $(brew --prefix)/etc/profile.d/autojump.sh ]] && . $(brew --prefix)/etc/profile.d/autojump.sh
 
 eval "$(direnv hook zsh)"
+
+# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
+export PATH="$PATH:$HOME/.rvm/bin"

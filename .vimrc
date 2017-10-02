@@ -17,6 +17,7 @@ Plugin 'mileszs/ack.vim'
 Plugin 'terryma/vim-multiple-cursors'
 Plugin 'thinca/vim-localrc'
 Plugin 'heavenshell/vim-jsdoc'
+Plugin 'pangloss/vim-javascript'
 
 call vundle#end()            " required
 filetype plugin indent on    " required

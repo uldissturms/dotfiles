@@ -6,17 +6,15 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
 Plugin 'gmarik/Vundle.vim'
+Plugin 'altercation/vim-colors-solarized'
 Plugin 'ctrlp.vim'
 Plugin 'elzr/vim-json'
-Plugin 'editorconfig-vim'
-Plugin 'altercation/vim-colors-solarized'
 Plugin 'scrooloose/syntastic'
 Plugin 'eslint/eslint'
 Plugin 'walm/jshint.vim'
 Plugin 'mileszs/ack.vim'
 Plugin 'terryma/vim-multiple-cursors'
 Plugin 'thinca/vim-localrc'
-Plugin 'heavenshell/vim-jsdoc'
 Plugin 'pangloss/vim-javascript'
 
 call vundle#end()            " required

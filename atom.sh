@@ -8,6 +8,7 @@ apm install advanced-open-file
 apm install paner
 apm install cursor-history
 apm install open-this
+apm install choose-pane
 
 # linting & style
 apm install linter

@@ -13,6 +13,8 @@
     disabledPackages: [
       "welcome"
       "autosave"
+      "atom-idle-autosave"
+      "background-tips"
     ]
     projectHome: "/Users/uldis/git"
     restorePreviousWindowsOnStart: false

@@ -68,9 +68,11 @@ colorscheme solarized
 nnoremap <TAB> <C-w>w
 nnoremap <S-TAB> <C-w>W
 inoremap jj <ESC>
+"use os copy shortcut
+vnoremap <C-c> "+y
 let mapleader=","
 
-" seach using regexes
+"seach using regexes
 nnoremap / /\v
 vnoremap / /\v
 

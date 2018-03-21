@@ -12,6 +12,7 @@ run ```chsh -s /bin/zsh``` to set zsh as default shell
 ```
 .
 ├── atom.sh               // install atom plugins
+├── vim.sh                // install vim dependencies
 ├── README.md
 ├── init.sh
 ├── macos

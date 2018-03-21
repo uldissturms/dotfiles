@@ -17,3 +17,6 @@ ln -sv ~/.dotfiles/.ackrc ~
 # atom
 ln -sf ~/.dotfiles/.atom/config.cson ~/.atom/config.cson
 ln -sf ~/.dotfiles/.atom/keymap.cson ~/.atom/keymap.cson
+
+# eslint
+ln -sf ~/.dotfiles/.eslintrc.yml ~/.eslintrc.yml

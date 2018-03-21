@@ -17,7 +17,6 @@
       "background-tips"
     ]
     projectHome: "/Users/uldis/git"
-    restorePreviousWindowsOnStart: false
     telemetryConsent: "no"
   "cursor-history": {}
   "exception-reporting":

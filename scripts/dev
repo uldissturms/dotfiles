@@ -1,0 +1,7 @@
+#! /bin/bash
+tmux new-session -s dev -n editor -d
+tmux send-keys -t dev 'vim' C-m
+tmux split-window -v -t dev
+tmux select-layout -t dev main-vertical
+tmux new-window -n console -t dev
+tmux attach -t dev

@@ -20,3 +20,6 @@ ln -sf ~/.dotfiles/.atom/keymap.cson ~/.atom/keymap.cson
 
 # eslint
 ln -sf ~/.dotfiles/.eslintrc.yml ~/.eslintrc.yml
+
+# scripts
+ln -sf ~/.dotfiles/scripts ~/scripts

@@ -5,7 +5,7 @@ ZSH_THEME="gitster"
 
 plugins=(git)
 
-export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:$HOME/.rvm/bin"
+export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:$HOME/.rvm/bin:/Library/TeX/texbin:/usr/local/opt/tcl-tk/bin"
 export GOPATH="$HOME/go"
 
 source $ZSH/oh-my-zsh.sh

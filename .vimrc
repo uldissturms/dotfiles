@@ -16,6 +16,7 @@ Plugin 'mileszs/ack.vim'
 Plugin 'terryma/vim-multiple-cursors'
 Plugin 'thinca/vim-localrc'
 Plugin 'pangloss/vim-javascript'
+Plugin 'christoomey/vim-tmux-navigator'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -89,3 +90,6 @@ let g:syntastic_javascript_checkers = ['standard']
 let g:syntastic_javascript_standard_exec = 'semistandard'
 
 set laststatus=2
+
+"tmux
+let g:tmux_navigator_save_on_switch = 2

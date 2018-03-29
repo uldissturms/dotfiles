@@ -19,3 +19,5 @@ export PATH="$PATH:$HOME/.rvm/bin"
 
 # Add scripts to PATH
 export PATH="$PATH:$HOME/scripts"
+
+unalias grv

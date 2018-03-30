@@ -92,4 +92,4 @@ let g:syntastic_javascript_standard_exec = 'semistandard'
 set laststatus=2
 
 "tmux
-let g:tmux_navigator_save_on_switch = 2
+let g:tmux_navigator_save_on_switch = 1

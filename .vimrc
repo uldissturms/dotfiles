@@ -21,62 +21,57 @@ Plugin 'nelstrom/vim-visual-star-search'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
-"
-" Brief help
-" :PluginList       - lists configured plugins
-" :PluginInstall    - installs plugins; append `!` to update or just :PluginUpdate
-" :PluginSearch foo - searches for foo; append `!` to refresh local cache
-" :PluginClean      - confirms removal of unused plugins; append `!` to auto-approve removal
-"
-" see :h vundle for more details or wiki for FAQ
-" Put your non-Plugin stuff after this line
 
-"indentation stuff
+" indentation stuff
 set smartindent
 set tabstop=2
 set shiftwidth=2
 set softtabstop=2
 set expandtab
 
-"quirks
-set backspace=2 "make backspace work like most other apps
+" quirks
+set backspace=2 " make backspace work like most other apps
 
-set complete+=k "dictionary autocomplete
+set complete+=k " dictionary autocomplete
 
-set number "view line numbers
-set ruler "view current position
+set number " view line numbers
+set ruler " view current position
 highlight LineNr ctermfg=grey
 
-set listchars=tab:▸▸,trail:~ "nicer whitespace chars
-set list "show whitespace
-set mouse=nv "allow mouse
+set listchars=tab:▸▸,trail:~ " nicer whitespace chars
+set list " show whitespace
+set mouse=nv " allow mouse
 
-"skip backup & swap files
+" skip backup & swap files
 set nobackup
 set nowritebackup
 set noswapfile
 
-"save readonly files with sudo using w!!
+" save readonly files with sudo using w!!
 cmap w!! %!sudo tee > /dev/null %
 
-set exrc "allow per folder configs
-set secure "disallow dangerous commands in per folder configs
+set exrc " allow per folder configs
+set secure " disallow dangerous commands in per folder configs
 
 syntax enable
 set background=dark
 colorscheme solarized
 
-"custom key mappings
+" custom key mappings
 nnoremap <TAB> <C-w>w
 nnoremap <S-TAB> <C-w>W
 inoremap jj <ESC>
-"use os copy shortcut
+" use os copy shortcut
 vnoremap <C-c> "+y
 let mapleader=","
 
-"seach using regexes
+" seach using regexes
 nnoremap / /\v
 vnoremap / /\v
+
+
+set hls " highlight search results
+nnoremap <space> :let @/ = ""<CR><space> " clear last used search pattern
 
 set ignorecase
 set smartcase
@@ -92,5 +87,5 @@ let g:syntastic_javascript_standard_exec = 'semistandard'
 
 set laststatus=2
 
-"tmux
+" tmux
 let g:tmux_navigator_save_on_switch = 1

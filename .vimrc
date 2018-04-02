@@ -70,7 +70,6 @@ let mapleader=","
 nnoremap / /\v
 vnoremap / /\v
 
-
 set hls " highlight search results
 nnoremap <space> :let @/ = ""<CR><space> " clear last used search pattern
 
@@ -80,6 +79,8 @@ set smartcase
 set wildignore+=*/.git/*,*/.hg/*,*/.svn/*,*/.idea/*,*/.DS_Store,*/vendor,*/node_modules
 set wildmenu
 set wildmode=full
+
+set history=200 " increase command history
 
 let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1

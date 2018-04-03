@@ -62,11 +62,10 @@ colorscheme solarized
 " custom key mappings
 nnoremap <TAB> <C-w>w
 nnoremap <S-TAB> <C-w>W
-inoremap jj <ESC>
-" use os copy shortcut
-vnoremap <C-c> "+y
+inoremap jj <ESC> " escape with jj
+cnoremap <expr> %% getcmdtype() == ':' ? expand('%:h').'/' : '%%' " expand %% to current dir
+vnoremap <C-c> "+y " use os copy shortcut
 let mapleader=","
-
 " seach using regexes
 nnoremap / /\v
 vnoremap / /\v
@@ -83,6 +82,9 @@ set wildmode=full
 
 set history=200 " increase command history
 
+
+" plugins
+" lint
 let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1

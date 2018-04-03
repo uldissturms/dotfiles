@@ -19,6 +19,7 @@ Plugin 'pangloss/vim-javascript'
 Plugin 'christoomey/vim-tmux-navigator'
 Plugin 'nelstrom/vim-visual-star-search'
 Plugin 'tpope/vim-commentary'
+Plugin 'tpope/vim-unimpaired'
 
 call vundle#end()            " required
 filetype plugin indent on    " required

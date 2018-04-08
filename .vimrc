@@ -80,6 +80,8 @@ vnoremap / /\v
 set hls " highlight search results
 nnoremap <space> :let @/ = ""<CR><space> " clear last used search pattern
 
+set pastetoggle=<f5>
+
 set ignorecase
 set smartcase
 
@@ -88,7 +90,6 @@ set wildmenu
 set wildmode=full
 
 set history=200 " increase command history
-
 
 " plugins
 " lint

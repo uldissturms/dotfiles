@@ -71,6 +71,7 @@ let mapleader=","
 map <leader>g :Ack<space>
 map <leader>r :source ~/.vimrc<CR>
 map <leader>w :w<CR>
+map <leader>q :q<CR>
 
 " seach using regexes
 nnoremap / /\v

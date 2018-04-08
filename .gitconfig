@@ -1,16 +1,12 @@
 [author]
-	email = uldis.sturms@gmail.com
+  email = uldis.sturms@gmail.com
 [user]
-	name = Uldis Sturms
-	email = uldis.sturms@gmail.com
+  name = Uldis Sturms
+  email = uldis.sturms@gmail.com
 [push]
-	default = current
+  default = current
 [core]
-	excludesfile = /Users/uldis/.gitignore_global
-	pager = diff-so-fancy | less --tabs=4 -RFX
-[difftool "sourcetree"]
-	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
-	path = 
-[mergetool "sourcetree"]
-	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
-	trustExitCode = true
+  excludesfile = /Users/uldis/.gitignore_global
+  pager = diff-so-fancy | less --tabs=4 -RFX
+[difftool "vimdiff"]
+[mergetool "vimdiff"]

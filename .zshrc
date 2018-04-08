@@ -20,4 +20,7 @@ export PATH="$PATH:$HOME/.rvm/bin"
 # Add scripts to PATH
 export PATH="$PATH:$HOME/scripts"
 
+# Add anaconda to PATH
+export PATH="$PATH:/anaconda3/bin"
+
 unalias grv

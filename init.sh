@@ -30,3 +30,6 @@ ln -sv ~/.dotfiles/.tmux.conf ~
 
 # utils
 brew install grv
+
+# git
+ln -sv ~/.dotfiles/.gitconfig ~

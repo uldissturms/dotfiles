@@ -68,6 +68,10 @@ inoremap jj <ESC> " escape with jj
 cnoremap <expr> %% getcmdtype() == ':' ? expand('%:h').'/' : '%%' " expand %% to current dir
 vnoremap <C-c> "+y " use os copy shortcut
 let mapleader=","
+map <leader>g :Ack<space>
+map <leader>r :source ~/.vimrc<CR>
+map <leader>w :w<CR>
+
 " seach using regexes
 nnoremap / /\v
 vnoremap / /\v
@@ -92,7 +96,7 @@ let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
 let g:syntastic_javascript_checkers = ['standard']
-let g:syntastic_javascript_standard_exec = 'semistandard'
+let g:syntastic_javascript_standard_exec = 'standard'
 
 set laststatus=2
 

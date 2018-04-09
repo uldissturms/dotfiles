@@ -5,7 +5,7 @@ ZSH_THEME="gitster"
 
 plugins=(git)
 
-export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:$HOME/.rvm/bin:/Library/TeX/texbin:/usr/local/opt/tcl-tk/bin"
+export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 export GOPATH="$HOME/go"
 
 source $ZSH/oh-my-zsh.sh
@@ -14,13 +14,10 @@ source $ZSH/oh-my-zsh.sh
 
 eval "$(direnv hook zsh)"
 
-# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
-export PATH="$PATH:$HOME/.rvm/bin"
-
 # Add scripts to PATH
 export PATH="$PATH:$HOME/scripts"
 
-# Add anaconda to PATH
-export PATH="$PATH:/anaconda3/bin"
-
 unalias grv
+
+# load ~/.zshrc.local
+[[ -s $HOME/.zshrc.local ]] && source "$HOME/.zshrc.local"

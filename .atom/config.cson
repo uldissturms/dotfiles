@@ -20,7 +20,7 @@
     telemetryConsent: "no"
   "cursor-history": {}
   editor:
-    fontSize: 13
+    fontSize: 12
   "exception-reporting":
     userId: "16fa58e8-7cea-fdcb-0886-67131f22ddda"
   "linter-shellcheck":

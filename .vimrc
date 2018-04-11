@@ -22,6 +22,7 @@ Plugin 'nelstrom/vim-visual-star-search'
 Plugin 'tpope/vim-commentary'
 Plugin 'tpope/vim-unimpaired'
 Plugin 'tpope/vim-surround'
+Plugin 'tpope/vim-abolish'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -72,6 +73,10 @@ map <leader>g :Ack<space>
 map <leader>r :source ~/.vimrc<CR>
 map <leader>w :w<CR>
 map <leader>q :q<CR>
+
+" repeat last command with the same params
+nnoremap & :&&<CR>
+xnoremap & :&&<CR>
 
 " smart search
 set ignorecase

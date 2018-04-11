@@ -73,17 +73,15 @@ map <leader>r :source ~/.vimrc<CR>
 map <leader>w :w<CR>
 map <leader>q :q<CR>
 
-" seach using regexes
-nnoremap / /\v
-vnoremap / /\v
+" smart search
+set ignorecase
+set smartcase
+set incsearch
 
 set hls " highlight search results
 nnoremap <space> :let @/ = ""<CR><space> " clear last used search pattern
 
 set pastetoggle=<f5>
-
-set ignorecase
-set smartcase
 
 set wildignore+=*/.git/*,*/.hg/*,*/.svn/*,*/.idea/*,*/.DS_Store,*/vendor,*/node_modules
 set wildmenu

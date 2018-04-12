@@ -30,6 +30,10 @@ ln -sv ~/.dotfiles/.tmux.conf ~
 
 # utils
 brew install grv
+brew install ctags
 
 # git
 ln -sv ~/.dotfiles/.gitconfig ~
+
+# ctags
+ln -sv ~/.dotfiles/.ctags ~

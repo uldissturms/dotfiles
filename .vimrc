@@ -93,6 +93,10 @@ set wildmenu
 set wildmode=full
 
 set history=200 " increase command history
+set laststatus=2
+
+" ctags
+nnoremap <f5> :!ctags -R<CR>
 
 " plugins
 " lint
@@ -102,8 +106,6 @@ let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
 let g:syntastic_javascript_checkers = ['standard']
 let g:syntastic_javascript_standard_exec = 'standard'
-
-set laststatus=2
 
 " tmux
 let g:tmux_navigator_save_on_switch = 1

@@ -83,12 +83,15 @@ set ignorecase
 set smartcase
 set incsearch
 
+" case intelligent auto complete
+set infercase
+
 set hls " highlight search results
 nnoremap <space> :let @/ = ""<CR><space> " clear last used search pattern
 
 set pastetoggle=<f5>
 
-set wildignore+=*/.git/*,*/.hg/*,*/.svn/*,*/.idea/*,*/.DS_Store,*/vendor,*/node_modules
+set wildignore+=*/.git/*,*/.hg/*,*/.svn/*,*/.idea/*,*/.DS_Store,*/vendor,*/node_modules,*/log,*/logs,tags
 set wildmenu
 set wildmode=full
 

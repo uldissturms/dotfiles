@@ -1,16 +1,20 @@
 export SHELL=/bin/zsh
 export ZSH=$HOME/.oh-my-zsh
 export EDITOR=/usr/bin/vi
-ZSH_THEME="gitster"
+ZSH_THEME="TheOne"
 
-plugins=(git)
+plugins=(
+  git git_remote_branch \
+  vi-mode \
+  web-search \
+  autojump \
+  docker docker-compose \
+)
 
 export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 export GOPATH="$HOME/go"
 
 source $ZSH/oh-my-zsh.sh
-
-[[ -s $(brew --prefix)/etc/profile.d/autojump.sh ]] && . $(brew --prefix)/etc/profile.d/autojump.sh
 
 eval "$(direnv hook zsh)"
 

@@ -1,5 +1,5 @@
 #! /bin/bash
-session=${1:dev}
+session=${1:-dev}
 tmux has-session -t $session
 if [ $? -ne 0 ]
 then

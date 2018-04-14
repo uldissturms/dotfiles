@@ -7,22 +7,34 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
 Plugin 'gmarik/Vundle.vim'
-Plugin 'lifepillar/vim-solarized8'
-Plugin 'ctrlp.vim'
-Plugin 'elzr/vim-json'
+
+" languages
+" all
 Plugin 'scrooloose/syntastic'
-Plugin 'eslint/eslint'
+
+" javascript
+Plugin 'pangloss/vim-javascript'
 Plugin 'walm/jshint.vim'
+Plugin 'eslint/eslint'
+Plugin 'elzr/vim-json'
+
+" productivity
+Plugin 'ctrlp.vim'
 Plugin 'mileszs/ack.vim'
 Plugin 'terryma/vim-multiple-cursors'
-Plugin 'thinca/vim-localrc'
-Plugin 'pangloss/vim-javascript'
 Plugin 'christoomey/vim-tmux-navigator'
 Plugin 'nelstrom/vim-visual-star-search'
 Plugin 'tpope/vim-commentary'
 Plugin 'tpope/vim-unimpaired'
 Plugin 'tpope/vim-surround'
 Plugin 'tpope/vim-abolish'
+
+" config
+Plugin 'thinca/vim-localrc'
+
+" themes
+Plugin 'lifepillar/vim-solarized8'
+Plugin 'rakr/vim-one'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -60,7 +72,7 @@ set secure " disallow dangerous commands in per folder configs
 
 syntax enable
 set background=dark
-colorscheme solarized8
+colorscheme one
 set termguicolors
 
 " custom key mappings

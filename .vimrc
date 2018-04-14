@@ -14,9 +14,11 @@ Plugin 'scrooloose/syntastic'
 
 " javascript
 Plugin 'pangloss/vim-javascript'
+Plugin 'othree/yajs.vim'
 Plugin 'walm/jshint.vim'
 Plugin 'eslint/eslint'
 Plugin 'elzr/vim-json'
+Plugin 'moll/vim-node'
 
 " productivity
 Plugin 'ctrlp.vim'
@@ -28,6 +30,10 @@ Plugin 'tpope/vim-commentary'
 Plugin 'tpope/vim-unimpaired'
 Plugin 'tpope/vim-surround'
 Plugin 'tpope/vim-abolish'
+Plugin 'tpope/vim-fugitive'
+
+" formating
+Plugin 'godlygeek/tabular'
 
 " config
 Plugin 'thinca/vim-localrc'

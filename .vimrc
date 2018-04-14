@@ -7,7 +7,7 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
 Plugin 'gmarik/Vundle.vim'
-Plugin 'altercation/vim-colors-solarized'
+Plugin 'lifepillar/vim-solarized8'
 Plugin 'ctrlp.vim'
 Plugin 'elzr/vim-json'
 Plugin 'scrooloose/syntastic'
@@ -60,7 +60,8 @@ set secure " disallow dangerous commands in per folder configs
 
 syntax enable
 set background=dark
-colorscheme solarized
+colorscheme solarized8
+set termguicolors
 
 " custom key mappings
 nnoremap <TAB> <C-w>w

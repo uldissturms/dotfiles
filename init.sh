@@ -31,9 +31,15 @@ ln -sv ~/.dotfiles/.tmux.conf ~
 # utils
 brew install grv
 brew install ctags
+brew install ncurses
 
 # git
 ln -sv ~/.dotfiles/.gitconfig ~
 
 # ctags
 ln -sv ~/.dotfiles/.ctags ~
+
+# terminal true colours
+mkdir -p ~/.terminfo/{74,78}
+cp /usr/local/opt/ncurses/share/terminfo/74/tmux-256color ~/.terminfo/74
+cp /usr/local/opt/ncurses/share/terminfo/78/xterm-256color ~/.terminfo/78

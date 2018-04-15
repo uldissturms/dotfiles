@@ -78,7 +78,9 @@ set secure " disallow dangerous commands in per folder configs
 syntax enable
 set background=dark
 colorscheme one
-set termguicolors
+if (has("termguicolors"))
+  set termguicolors
+endif
 
 " custom key mappings
 nnoremap <TAB> <C-w>w

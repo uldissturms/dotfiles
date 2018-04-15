@@ -1,6 +1,6 @@
 export SHELL=/bin/zsh
 export ZSH=$HOME/.oh-my-zsh
-export EDITOR=/usr/bin/vi
+export EDITOR=/usr/bin/vim
 ZSH_THEME="TheOne"
 
 plugins=(

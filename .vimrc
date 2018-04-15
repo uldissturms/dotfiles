@@ -13,12 +13,11 @@ Plugin 'gmarik/Vundle.vim'
 Plugin 'scrooloose/syntastic'
 
 " javascript
-Plugin 'pangloss/vim-javascript'
-Plugin 'othree/yajs.vim'
-Plugin 'walm/jshint.vim'
-Plugin 'eslint/eslint'
+Plugin 'pangloss/vim-javascript', {'for': 'javascript'}
+Plugin 'walm/jshint.vim', {'for': 'javascript'}
+Plugin 'eslint/eslint', {'for': 'javascript'}
+Plugin 'moll/vim-node', {'for': 'javascript'}
 Plugin 'elzr/vim-json'
-Plugin 'moll/vim-node'
 
 " productivity
 Plugin 'ctrlp.vim'

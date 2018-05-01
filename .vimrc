@@ -11,6 +11,7 @@ Plugin 'gmarik/Vundle.vim'
 " languages
 " all
 Plugin 'scrooloose/syntastic'
+Plugin 'editorconfig/editorconfig-vim'
 
 " javascript
 Plugin 'pangloss/vim-javascript', {'for': 'javascript'}

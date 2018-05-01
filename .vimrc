@@ -1,5 +1,5 @@
 set nocompatible              " be iMproved, required
-filetype plugin on
+filetype off
 runtime macros/matchit.vim
 
 " set the runtime path to include Vundle and initialize
@@ -18,6 +18,9 @@ Plugin 'walm/jshint.vim', {'for': 'javascript'}
 Plugin 'eslint/eslint', {'for': 'javascript'}
 Plugin 'moll/vim-node', {'for': 'javascript'}
 Plugin 'elzr/vim-json'
+
+"typescript
+Plugin 'leafgarland/typescript-vim'
 
 " productivity
 Plugin 'ctrlp.vim'

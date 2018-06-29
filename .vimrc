@@ -102,6 +102,9 @@ map <leader>q :q<CR>
 nnoremap & :&&<CR>
 xnoremap & :&&<CR>
 
+map <leader>pj :%!jq '.'<CR>
+map <leader>px :%!xmllint --format -<CR>
+
 " smart search
 set ignorecase
 set smartcase

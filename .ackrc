@@ -1,8 +1,16 @@
 --ignore-dir=node_modules
 --ignore-dir=.tmp
 --ignore-dir=tmp
+--ignore-dir=.nyc_output
+--ignore-dir=lcov-report
+--ignore-dir=tags
+--ignore-dir=coverage
+--ignore-file=is:tags
+--ignore-file=match:.tmp
 --sort-files
 --color
 --follow
 --group
 --color-filename=white
+--type-set=feature=.feature
+--type-set=json=.json

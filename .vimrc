@@ -35,6 +35,12 @@ Plugin 'tpope/vim-surround'
 Plugin 'tpope/vim-abolish'
 Plugin 'tpope/vim-fugitive'
 
+"snippets
+Plugin 'MarcWeber/vim-addon-mw-utils'
+Plugin 'tomtom/tlib_vim'
+Plugin 'garbas/vim-snipmate'
+Plugin 'honza/vim-snippets'
+
 " formating
 Plugin 'godlygeek/tabular'
 
@@ -42,7 +48,6 @@ Plugin 'godlygeek/tabular'
 Plugin 'thinca/vim-localrc'
 
 " themes
-Plugin 'lifepillar/vim-solarized8'
 Plugin 'rakr/vim-one'
 
 call vundle#end()            " required
@@ -89,7 +94,6 @@ endif
 " custom key mappings
 nnoremap <TAB> <C-w>w
 nnoremap <S-TAB> <C-w>W
-inoremap jj <ESC> " escape with jj
 cnoremap <expr> %% getcmdtype() == ':' ? expand('%:h').'/' : '%%' " expand %% to current dir
 vnoremap <C-c> "+y " use os copy shortcut
 let mapleader=","

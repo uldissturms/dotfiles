@@ -91,8 +91,19 @@ if (has("termguicolors"))
 endif
 
 " custom key mappings
-nnoremap <TAB> <C-w>w
-nnoremap <S-TAB> <C-w>W
+
+" navigation
+
+" windows
+nnoremap <C-j> <C-w>j
+nnoremap <C-k> <C-w>k
+nnoremap <C-h> <C-w>h
+nnoremap <C-l> <C-w>l
+
+" last two files
+nnoremap <Leader><Leader> <C-^>
+
+" general
 cnoremap <expr> %% getcmdtype() == ':' ? expand('%:h').'/' : '%%' " expand %% to current dir
 vnoremap <C-c> "+y " use os copy shortcut
 let mapleader=","

@@ -27,7 +27,6 @@ Plugin 'leafgarland/typescript-vim'
 Plugin 'ctrlp.vim'
 Plugin 'mileszs/ack.vim'
 Plugin 'terryma/vim-multiple-cursors'
-Plugin 'christoomey/vim-tmux-navigator'
 Plugin 'nelstrom/vim-visual-star-search'
 Plugin 'tpope/vim-commentary'
 Plugin 'tpope/vim-unimpaired'
@@ -140,6 +139,3 @@ let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
 let g:syntastic_javascript_checkers = ['standard']
 let g:syntastic_javascript_standard_exec = 'standard'
-
-" tmux
-let g:tmux_navigator_save_on_switch = 1

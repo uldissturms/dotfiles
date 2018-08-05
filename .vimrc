@@ -119,6 +119,10 @@ xnoremap & :&&<CR>
 map <leader>pj :%!jq '.'<CR>
 map <leader>px :%!xmllint --format -<CR>
 
+" open new split panes to right and bottom
+set splitbelow
+set splitright
+
 " smart search
 set ignorecase
 set smartcase

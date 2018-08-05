@@ -15,13 +15,13 @@ Plugin 'editorconfig/editorconfig-vim'
 
 " javascript
 Plugin 'pangloss/vim-javascript', {'for': 'javascript'}
-Plugin 'walm/jshint.vim', {'for': 'javascript'}
+" Plugin 'walm/jshint.vim', {'for': 'javascript'}
 Plugin 'eslint/eslint', {'for': 'javascript'}
 Plugin 'moll/vim-node', {'for': 'javascript'}
 Plugin 'elzr/vim-json'
 
 "typescript
-Plugin 'leafgarland/typescript-vim'
+" Plugin 'leafgarland/typescript-vim'
 
 " productivity
 Plugin 'ctrlp.vim'

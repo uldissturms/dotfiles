@@ -21,3 +21,4 @@ brew cask install haskell-platform
 brew install reattach-to-user-namespace --wrap-pbcopy-and-pbpaste
 brew install direnv
 brew install gpg
+brew install ansifilter

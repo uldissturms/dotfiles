@@ -21,6 +21,9 @@ eval "$(direnv hook zsh)"
 # Add scripts to PATH
 export PATH="$PATH:$HOME/scripts"
 
+# Add haskell & stack binaries
+export PATH="$PATH:$HOME/Library/Haskell/bin:$HOME/.local/bin"
+
 unalias grv
 
 # load ~/.zshrc.local

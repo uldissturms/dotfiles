@@ -12,6 +12,10 @@ npm i eslint \
 
 # snippets
 ln -sv ~/.dotfiles/.vim/snippets ~/.vim/
+
+# file types
+ln -sv ~/.dotfiles/.vim/ftplugin ~/.vim/
+
 # manage my own js snippets
 # list of original ones: https://github.com/honza/vim-snippets
 rm -rf ~/.vim/bundle/vim-snippets/snippets/javascript/

@@ -20,8 +20,11 @@ Plugin 'eslint/eslint', {'for': 'javascript'}
 Plugin 'moll/vim-node', {'for': 'javascript'}
 Plugin 'elzr/vim-json'
 
-"typescript
+" typescript
 " Plugin 'leafgarland/typescript-vim'
+
+" haskell
+Plugin 'neovimhaskell/haskell-vim', {'for': 'haskell'}
 
 " productivity
 Plugin 'ctrlp.vim'
@@ -154,3 +157,9 @@ let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
 let g:syntastic_javascript_checkers = ['standard']
 let g:syntastic_javascript_standard_exec = 'standard'
+
+" haskell
+let g:haskell_indent_case_alternative = 1
+let g:haskell_indent_in = 0
+let g:haskell_indent_before_where = 2
+let g:haskell_indent_after_bare_where = 2

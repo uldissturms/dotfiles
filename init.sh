@@ -39,6 +39,10 @@ ln -sv ~/.dotfiles/.gitconfig ~
 # ctags
 ln -sv ~/.dotfiles/.ctags ~
 
+# neovim
+mkdir -p ~/.config/nvim
+ln -sv ~/.dotfiles/config/nvim/init.vim ~/.config/nvim/
+
 # terminal true colours
 mkdir -p ~/.terminfo/{74,78}
 cp /usr/local/opt/ncurses/share/terminfo/74/tmux-256color ~/.terminfo/74

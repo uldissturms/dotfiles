@@ -23,3 +23,4 @@ brew install direnv
 brew install gpg
 brew install ansifilter
 brew install hub
+brew install neovim

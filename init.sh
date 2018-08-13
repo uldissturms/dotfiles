@@ -7,11 +7,11 @@ vim +PluginInstall +qall
 
 # init zsh
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-curl -o ~/.oh-my-zsh/themes/gitster.zsh-theme https://raw.githubusercontent.com/shashankmehta/dotfiles/master/thesetup/zsh/.oh-my-zsh/custom/themes/gitster.zsh-theme
-ln -sv ~/.dotfiles/.zshrc ~
+curl -o ~/.oh-my-zsh/themes/TheOne.zsh-theme https://raw.githubusercontent.com/benniemosher/the-one-theme/master/zsh/TheOne.zsh-theme
+ln -sf ~/.dotfiles/.zshrc ~
 ln -sf ~/.dotfiles/oh-my-zsh/custom ~/.oh-my-zsh/custom
 
-ln -sv ~/.dotfiles/.ackrc ~
+ln -sf ~/.dotfiles/.ackrc ~
 
 # atom
 ln -sf ~/.dotfiles/.atom/config.cson ~/.atom/config.cson

@@ -88,7 +88,11 @@ set secure " disallow dangerous commands in per folder configs
 
 syntax enable
 set background=dark
-colorscheme one
+" safely set colorscheme
+try
+  colorscheme one
+catch
+endtry
 if (has("termguicolors"))
   set termguicolors
 endif
@@ -163,3 +167,6 @@ let g:haskell_indent_case_alternative = 1
 let g:haskell_indent_in = 0
 let g:haskell_indent_before_where = 2
 let g:haskell_indent_after_bare_where = 2
+
+" ctrlp
+let g:ctrlp_working_path_mode = 0

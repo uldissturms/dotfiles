@@ -2,6 +2,7 @@ export SHELL=/bin/zsh
 export ZSH=$HOME/.oh-my-zsh
 export EDITOR=/usr/bin/vim
 ZSH_THEME="TheOne"
+ZSH_DISABLE_COMPFIX=true
 
 plugins=(
   git git_remote_branch \

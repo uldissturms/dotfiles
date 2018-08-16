@@ -1,8 +1,9 @@
 ### setup
 
 ```bash
-git clone git@github.com:uldissturms/dotfiles ~/.dotfiles
-. ~/.dotfiles/init.sh
+DOTFILES_DEST=~/.dotfiles
+git clone git@github.com:uldissturms/dotfiles $DOTFILES_DEST
+$DOTFILES_DEST/init.sh
 ```
 
 run ```chsh -s /bin/zsh``` to set zsh as default shell

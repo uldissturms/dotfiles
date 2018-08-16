@@ -1,5 +1,10 @@
+DOTFILES_SRC=${DOTFILES_SRC:-~/.dotfiles}
+
+# ensure node is installed
+which node || brew install node@8
+
 # eslint
-npm i eslint \
+which eslint || npm i eslint \
   standard \
   semistandard \
   eslint-plugin-node \
@@ -11,10 +16,10 @@ npm i eslint \
   eslint-plugin-react -g
 
 # snippets
-ln -sv ~/.dotfiles/.vim/snippets ~/.vim/
+ln -sfv ${DOTFILES_SRC}/.vim/snippets ~/.vim
 
 # file types
-ln -sv ~/.dotfiles/.vim/ftplugin ~/.vim/
+ln -sfv $DOTFILES_SRC/.vim/ftplugin ~/.vim
 
 # manage my own js snippets
 # list of original ones: https://github.com/honza/vim-snippets

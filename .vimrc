@@ -21,7 +21,7 @@ Plugin 'moll/vim-node', {'for': 'javascript'}
 Plugin 'elzr/vim-json'
 
 " typescript
-" Plugin 'leafgarland/typescript-vim'
+Plugin 'leafgarland/typescript-vim', {'for': 'typescript'}
 
 " haskell
 Plugin 'neovimhaskell/haskell-vim', {'for': 'haskell'}

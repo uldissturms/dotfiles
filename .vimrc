@@ -22,6 +22,7 @@ Plugin 'elzr/vim-json'
 
 " typescript
 Plugin 'leafgarland/typescript-vim', {'for': 'typescript'}
+Plugin 'quramy/tsuquyomi', {'for': 'typescript'}
 
 " haskell
 Plugin 'neovimhaskell/haskell-vim', {'for': 'haskell'}
@@ -154,13 +155,20 @@ set laststatus=2
 nnoremap <f5> :!ctags -R<CR>
 
 " plugins
-" lint
+
+" syntastic
 let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
+
+" javascript
 let g:syntastic_javascript_checkers = ['standard']
 let g:syntastic_javascript_standard_exec = 'standard'
+
+" typecript
+let g:tsuquyomi_disable_quickfix = 1
+let g:syntastic_typescript_checkers = ['tsuquyomi']
 
 " haskell
 let g:haskell_indent_case_alternative = 1

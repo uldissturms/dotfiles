@@ -13,7 +13,10 @@ which eslint || npm i eslint \
   eslint-config-standard \
   eslint-config-semistandard \
   eslint-plugin-promise \
-  eslint-plugin-react -g
+  eslint-plugin-react \
+  typescript \
+  ts-node \
+  tslint -g
 
 # snippets
 ln -sfv ${DOTFILES_SRC}/.vim/snippets ~/.vim

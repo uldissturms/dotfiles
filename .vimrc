@@ -168,7 +168,7 @@ let g:syntastic_javascript_standard_exec = 'standard'
 
 " typecript
 let g:tsuquyomi_disable_quickfix = 1
-let g:syntastic_typescript_checkers = ['tsuquyomi']
+let g:syntastic_typescript_checkers = ['tsuquyomi', 'tslint']
 
 " haskell
 let g:haskell_indent_case_alternative = 1

@@ -44,7 +44,7 @@ ensure_installed grv
 ensure_installed ctags
 
 # git
-ln -sf $DOTFILES_SRC/.gitconfig ~
+test -e ~/.gitconfig || cp $DOTFILES_SRC/.gitconfig ~
 
 # ctags
 ln -sf $DOTFILES_SRC/.ctags ~

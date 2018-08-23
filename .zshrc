@@ -1,6 +1,8 @@
 export SHELL=/bin/zsh
 export ZSH=$HOME/.oh-my-zsh
 export EDITOR=/usr/bin/vim
+export AWS_DEFAULT_REGION=eu-west-1
+
 ZSH_THEME="TheOne"
 ZSH_DISABLE_COMPFIX=true
 

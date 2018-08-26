@@ -19,7 +19,7 @@ export GOPATH="$HOME/go"
 
 source $ZSH/oh-my-zsh.sh
 
-eval "$(direnv hook zsh)"
+which direnv > /dev/null && eval "$(direnv hook zsh)"
 
 # Add scripts to PATH
 export PATH="$PATH:$HOME/scripts"

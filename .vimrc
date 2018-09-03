@@ -37,6 +37,7 @@ Plugin 'tpope/vim-unimpaired'
 Plugin 'tpope/vim-surround'
 Plugin 'tpope/vim-abolish'
 Plugin 'tpope/vim-fugitive'
+Plugin 'tpope/vim-repeat'
 
 "snippets
 Plugin 'MarcWeber/vim-addon-mw-utils'

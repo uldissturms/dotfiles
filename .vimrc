@@ -145,7 +145,7 @@ nnoremap <space> :let @/ = ""<CR><space> " clear last used search pattern
 
 set pastetoggle=<f5>
 
-set wildignore+=*/.git/*,*/.hg/*,*/.svn/*,*/.idea/*,*/.DS_Store,*/vendor,*/node_modules,*/log,*/logs,tags,*/.nyc_output,*/lcov-report
+set wildignore+=*/.git/*,*/.hg/*,*/.svn/*,*/.idea/*,*/.DS_Store,*/vendor,*/node_modules,*/log,*/logs,tags,*/.nyc_output,*/lcov-report,*/.cache-loader,*/.webpack,*/.serverless
 set wildmenu
 set wildmode=full
 

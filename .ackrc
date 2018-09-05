@@ -2,9 +2,12 @@
 --ignore-dir=.tmp
 --ignore-dir=tmp
 --ignore-dir=.nyc_output
+--ignore-dir=.webpack
+--ignore-dir=.serverless
 --ignore-dir=lcov-report
 --ignore-dir=tags
 --ignore-dir=coverage
+--ignore-dir=.cache-loader
 --ignore-file=is:tags
 --ignore-file=match:.tmp
 --sort-files

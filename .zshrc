@@ -31,3 +31,5 @@ unalias grv
 
 # load ~/.zshrc.local
 [[ -s $HOME/.zshrc.local ]] && source "$HOME/.zshrc.local"
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh

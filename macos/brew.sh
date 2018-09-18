@@ -25,3 +25,4 @@ brew install ansifilter
 brew install hub
 brew install neovim
 brew install fzf
+brew install fd

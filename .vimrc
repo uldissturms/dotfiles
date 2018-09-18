@@ -4,6 +4,7 @@ runtime macros/matchit.vim
 
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
+set rtp+=/usr/local/opt/fzf
 call vundle#begin()
 
 Plugin 'gmarik/Vundle.vim'
@@ -28,6 +29,7 @@ Plugin 'quramy/tsuquyomi', {'for': 'typescript'}
 Plugin 'neovimhaskell/haskell-vim', {'for': 'haskell'}
 
 " productivity
+Plugin 'junegunn/fzf.vim'
 Plugin 'ctrlp.vim'
 Plugin 'mileszs/ack.vim'
 Plugin 'terryma/vim-multiple-cursors'

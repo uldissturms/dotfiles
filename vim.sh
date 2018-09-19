@@ -3,6 +3,8 @@ DOTFILES_SRC=${DOTFILES_SRC:-~/.dotfiles}
 # ensure node is installed
 which node || brew install node@8
 
+# linting
+
 # eslint
 which eslint || npm i eslint \
   standard \
@@ -17,6 +19,12 @@ which eslint || npm i eslint \
   typescript \
   ts-node \
   tslint -g
+
+# cloud formation
+which cfn-lint || pip3 install cfn-lint
+
+# dockerfile linting
+which hadolint || brew install hadolint
 
 # snippets
 ln -sfv ${DOTFILES_SRC}/.vim/snippets ~/.vim

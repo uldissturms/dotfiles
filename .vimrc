@@ -13,6 +13,7 @@ Plugin 'gmarik/Vundle.vim'
 " all
 Plugin 'scrooloose/syntastic'
 Plugin 'editorconfig/editorconfig-vim'
+Plugin 'w0rp/ale'
 
 " javascript
 Plugin 'pangloss/vim-javascript', {'for': 'javascript'}
@@ -167,16 +168,28 @@ let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
 
-" javascript
-let g:syntastic_javascript_checkers = ['standard']
-let g:syntastic_javascript_standard_exec = 'standard'
+" syntastic
+" disable linting
+let g:syntastic_check_on_open = 0
+let g:syntastic_javascript_checkers = []
+let g:syntastic_typescript_checkers = []
 
 " typecript
 let g:tsuquyomi_disable_quickfix = 1
-let g:syntastic_typescript_checkers = ['tsuquyomi', 'tslint']
 
 " haskell
 let g:haskell_indent_case_alternative = 1
 let g:haskell_indent_in = 0
 let g:haskell_indent_before_where = 2
 let g:haskell_indent_after_bare_where = 2
+
+" ale
+let g:ale_linters = {
+  \'javascript': ['standard'],
+  \'typescript': ['tsuquyomi', 'tslint']
+\}
+let g:ale_fixers = {
+  \'*': ['remove_trailing_lines', 'trim_whitespace'],
+  \'javascript': ['standard']
+\}
+let g:ale_lint_on_text_changed = 'never'

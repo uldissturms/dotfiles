@@ -30,7 +30,6 @@ Plugin 'neovimhaskell/haskell-vim', {'for': 'haskell'}
 
 " productivity
 Plugin 'junegunn/fzf.vim'
-Plugin 'ctrlp.vim'
 Plugin 'mileszs/ack.vim'
 Plugin 'terryma/vim-multiple-cursors'
 Plugin 'nelstrom/vim-visual-star-search'
@@ -102,6 +101,9 @@ if (has("termguicolors"))
 endif
 
 " custom key mappings
+
+" fuzzy-finder
+nnoremap <C-p> :GFiles<CR>
 
 " navigation
 
@@ -178,6 +180,3 @@ let g:haskell_indent_case_alternative = 1
 let g:haskell_indent_in = 0
 let g:haskell_indent_before_where = 2
 let g:haskell_indent_after_bare_where = 2
-
-" ctrlp
-let g:ctrlp_working_path_mode = 0

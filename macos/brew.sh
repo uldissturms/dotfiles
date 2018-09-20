@@ -27,3 +27,4 @@ brew install neovim
 brew install fzf
 brew install fd
 brew install ag
+brew tap caskroom/versions # add package version support for things like java

@@ -104,7 +104,7 @@ endif
 " custom key mappings
 
 " fuzzy-finder
-nnoremap <C-p> :GFiles<CR>
+nnoremap <C-p> :Files<CR>
 
 " navigation
 

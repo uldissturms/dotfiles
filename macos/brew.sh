@@ -26,3 +26,4 @@ brew install hub
 brew install neovim
 brew install fzf
 brew install fd
+brew install ag

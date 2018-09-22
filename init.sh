@@ -18,6 +18,7 @@ vim +PluginInstall +qall
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 curl -o ~/.oh-my-zsh/themes/TheOne.zsh-theme https://raw.githubusercontent.com/benniemosher/the-one-theme/master/zsh/TheOne.zsh-theme
 ln -sf $DOTFILES_SRC/.zshrc ~
+ln -sf $DOTFILES_SRC/.bashrc ~
 ln -sf $DOTFILES_SRC/oh-my-zsh/custom ~/.oh-my-zsh/custom
 
 ln -sf $DOTFILES_SRC/.ackrc ~

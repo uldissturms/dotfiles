@@ -56,6 +56,9 @@ Plugin 'thinca/vim-localrc'
 " themes
 Plugin 'rakr/vim-one'
 
+" metrics
+Plugin 'wakatime/vim-wakatime'
+
 call vundle#end()            " required
 filetype plugin indent on    " required
 

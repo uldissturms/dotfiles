@@ -8,6 +8,9 @@ function ensure_installed {
 
 DOTFILES_SRC=${DOTFILES_SRC:-~/.dotfiles}
 
+# configs
+test -e ~/.wakatime.cfg || cp $DOTFILES_SRC/.wakatime.cfg ~
+
 # init vim
 VUNDLE_DEST=~/.vim/bundle/Vundle.vim
 test -e $VUNDLE_DEST || git clone https://github.com/VundleVim/Vundle.vim.git $VUNDLE_DEST
@@ -18,9 +21,12 @@ vim +PluginInstall +qall
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 curl -o ~/.oh-my-zsh/themes/TheOne.zsh-theme https://raw.githubusercontent.com/benniemosher/the-one-theme/master/zsh/TheOne.zsh-theme
 ln -sf $DOTFILES_SRC/.zshrc ~
-ln -sf $DOTFILES_SRC/.bashrc ~
 ln -sf ~/.dotfiles/.oh-my-zsh/custom/* ~/.oh-my-zsh/custom/
 
+# init bash
+ln -sf $DOTFILES_SRC/.bashrc ~
+
+# search
 ln -sf $DOTFILES_SRC/.ackrc ~
 
 # atom

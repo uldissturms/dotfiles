@@ -178,7 +178,7 @@ let g:syntastic_javascript_checkers = []
 let g:syntastic_typescript_checkers = []
 
 " typecript
-let g:tsuquyomi_disable_quickfix = 1
+" let g:tsuquyomi_disable_quickfix = 1
 
 " haskell
 let g:haskell_indent_case_alternative = 1
@@ -196,3 +196,6 @@ let g:ale_fixers = {
   \'javascript': ['standard']
 \}
 let g:ale_lint_on_text_changed = 'never'
+let g:ale_set_loclist = 0
+let g:ale_set_quickfix = 1
+let g:ale_open_list = 1

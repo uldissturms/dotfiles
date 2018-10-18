@@ -8,9 +8,6 @@ function ensure_installed {
 
 DOTFILES_SRC=${DOTFILES_SRC:-~/.dotfiles}
 
-# configs
-test -e ~/.wakatime.cfg || cp $DOTFILES_SRC/.wakatime.cfg ~
-
 # init vim
 VUNDLE_DEST=~/.vim/bundle/Vundle.vim
 test -e $VUNDLE_DEST || git clone https://github.com/VundleVim/Vundle.vim.git $VUNDLE_DEST
@@ -59,3 +56,9 @@ ln -sf $DOTFILES_SRC/.ctags ~
 # neovim
 mkdir -p ~/.config/nvim
 ln -sf $DOTFILES_SRC/config/nvim/init.vim ~/.config/nvim/
+
+# wakatime
+test -e ~/.wakatime.cfg || cp $DOTFILES_SRC/.wakatime.cfg ~
+
+# karabiner
+ln -sf $DOTFILES_SRC/config/karabiner ~/.config

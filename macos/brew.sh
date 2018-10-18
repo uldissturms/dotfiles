@@ -31,3 +31,5 @@ brew tap caskroom/versions # add package version support for things like java
 brew install pipenv
 brew install ccat # cat with syntax highlighting
 brew install bat # same
+brew install m-cli # manage mac from cli
+brew cask install karabiner-elements # custom key bindings

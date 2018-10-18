@@ -25,6 +25,7 @@ plugins=(
 
 export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 export GOPATH="$HOME/go"
+export BAT_THEME=TwoDark
 
 source $ZSH/oh-my-zsh.sh
 

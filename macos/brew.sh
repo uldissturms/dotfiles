@@ -29,3 +29,5 @@ brew install fd
 brew install ag
 brew tap caskroom/versions # add package version support for things like java
 brew install pipenv
+brew install ccat # cat with syntax highlighting
+brew install bat # same

@@ -2,6 +2,7 @@ alias vim='/usr/local/bin/vim'
 alias ..='cd ..'
 alias cdd='cd -'
 alias cdg='cd ~/git'
+alias vlc='/Applications/VLC.app/Contents/MacOS/VLC'
 
 function light() {
   if [ -z "$2" ]

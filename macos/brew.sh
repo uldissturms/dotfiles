@@ -33,3 +33,7 @@ brew install ccat # cat with syntax highlighting
 brew install bat # same
 brew install m-cli # manage mac from cli
 brew cask install karabiner-elements # custom key bindings
+
+# spacemacs
+brew tap d12frosted/emacs-plus
+brew install emacs-plus

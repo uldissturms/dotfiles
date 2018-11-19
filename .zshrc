@@ -38,6 +38,9 @@ export PATH="$PATH:$HOME/scripts"
 # Add haskell & stack binaries
 export PATH="$PATH:$HOME/Library/Haskell/bin:$HOME/.local/bin"
 
+# Add latex
+export PATH="$PATH:/Library/TeX/texbin"
+
 unalias grv
 
 # load ~/.zshrc.local

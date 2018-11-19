@@ -37,3 +37,7 @@ brew cask install karabiner-elements # custom key bindings
 # spacemacs
 brew tap d12frosted/emacs-plus
 brew install emacs-plus
+
+# fonts
+brew tap homebrew/cask-fonts
+brew cask install font-fontawesome

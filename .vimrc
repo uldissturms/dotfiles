@@ -108,6 +108,7 @@ endif
 
 " fuzzy-finder
 nnoremap <C-p> :Files<CR>
+nnoremap <C-b> :Buffers<CR>
 
 " navigation
 

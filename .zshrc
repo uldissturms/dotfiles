@@ -41,6 +41,9 @@ export PATH="$PATH:$HOME/Library/Haskell/bin:$HOME/.local/bin"
 # Add latex
 export PATH="$PATH:/Library/TeX/texbin"
 
+# Add Go binaries
+export PATH="$PATH:$HOME/go/bin"
+
 unalias grv
 
 # load ~/.zshrc.local

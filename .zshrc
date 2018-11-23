@@ -44,6 +44,9 @@ export PATH="$PATH:/Library/TeX/texbin"
 # Add Go binaries
 export PATH="$PATH:$HOME/go/bin"
 
+# Add Rust binaries
+export PATH="$PATH:$HOME/.cargo/bin"
+
 unalias grv
 
 # load ~/.zshrc.local

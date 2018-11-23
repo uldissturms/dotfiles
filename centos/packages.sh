@@ -7,3 +7,7 @@ sudo sh get-docker.sh
 sudo yum install go
 # fzf
 go get -u github.com/junegunn/fzf
+# git
+sudo yum install git-gui
+# rust
+curl https://sh.rustup.rs -sSf | sh

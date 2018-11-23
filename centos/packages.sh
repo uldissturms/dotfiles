@@ -11,3 +11,5 @@ go get -u github.com/junegunn/fzf
 sudo yum install git-gui
 # rust
 curl https://sh.rustup.rs -sSf | sh
+# ag
+sudo yum install the_silver_searcher

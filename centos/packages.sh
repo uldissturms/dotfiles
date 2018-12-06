@@ -13,4 +13,9 @@ sudo yum install git-gui -y
 curl https://sh.rustup.rs -sSf | sh
 # ag
 sudo yum install the_silver_searcher -y
+# build deps
 sudo yum install libevent-devel ncurses-devel glibc-static -y
+# vs code
+sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
+sudo sh -c 'echo -e "[code]\nname=Visual Studio Code\nbaseurl=https://packages.microsoft.com/yumrepos/vscode\nenabled=1\ngpgcheck=1\ngpgkey=https://packages.microsoft.com/keys/microsoft.asc" > /etc/yum.repos.d/vscode.repo'
+sudo yum install code -y

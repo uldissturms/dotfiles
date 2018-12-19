@@ -104,6 +104,8 @@ if (has("termguicolors"))
   set termguicolors
 endif
 
+hi Normal guibg=black
+
 " custom key mappings
 
 " fuzzy-finder

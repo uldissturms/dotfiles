@@ -22,6 +22,7 @@ plugins=(
   autojump \
   docker docker-compose \
   urltools \
+  catimg \
 )
 
 export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"

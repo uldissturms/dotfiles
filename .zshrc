@@ -16,6 +16,7 @@ setopt HIST_SAVE_NO_DUPS
 setopt HIST_BEEP
 
 plugins=(
+  ssh-agent \
   git git_remote_branch \
   vi-mode \
   web-search \
@@ -28,6 +29,8 @@ plugins=(
 export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 export GOPATH="$HOME/go"
 export BAT_THEME=TwoDark
+
+zstyle :omz:plugins:ssh-agent agent-forwarding on
 
 source $ZSH/oh-my-zsh.sh
 

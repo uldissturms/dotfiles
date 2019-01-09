@@ -1,7 +1,11 @@
 alias vim='/usr/local/bin/vim'
+alias vi=vim
+alias v=vim
+
 alias ..='cd ..'
 alias cdd='cd -'
 alias cdg='cd ~/git'
+
 alias vlc='/Applications/VLC.app/Contents/MacOS/VLC'
 
 function light() {

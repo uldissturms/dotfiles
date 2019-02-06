@@ -14,6 +14,7 @@ Plugin 'gmarik/Vundle.vim'
 Plugin 'scrooloose/syntastic'
 Plugin 'editorconfig/editorconfig-vim'
 Plugin 'w0rp/ale'
+Plugin 'valloric/youcompleteme'
 
 " javascript
 Plugin 'pangloss/vim-javascript', {'for': 'javascript'}
@@ -73,6 +74,7 @@ set expandtab
 set backspace=2 " make backspace work like most other apps
 
 set complete+=k " dictionary autocomplete
+set completeopt-=preview " disable preview window
 
 set number " view line numbers
 set ruler " view current position
@@ -201,3 +203,6 @@ let g:ale_fixers = {
 let g:ale_lint_on_text_changed = 'never'
 " let g:ale_set_loclist = 0
 " let g:ale_set_quickfix = 1
+
+" youcompleteme
+let g:ycm_key_list_select_completion = []

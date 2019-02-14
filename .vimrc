@@ -113,6 +113,8 @@ hi Normal guibg=black
 " fuzzy-finder
 nnoremap <C-p> :Files<CR>
 nnoremap <C-b> :Buffers<CR>
+nnoremap <leader>ch :History:<CR>
+nnoremap <leader>sh :History/<CR>
 
 " navigation
 

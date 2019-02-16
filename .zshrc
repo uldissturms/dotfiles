@@ -3,6 +3,7 @@ export ZSH=$HOME/.oh-my-zsh
 export EDITOR=/usr/bin/vim
 export AWS_DEFAULT_REGION=eu-west-1
 export KEYTIMEOUT=1
+export TIMER_FORMAT='[%d]'
 
 ZSH_THEME="TheOne"
 ZSH_DISABLE_COMPFIX=true
@@ -25,6 +26,7 @@ plugins=(
   docker docker-compose \
   urltools \
   catimg \
+  # timer \
 )
 
 export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"

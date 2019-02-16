@@ -26,6 +26,7 @@ plugins=(
   docker docker-compose \
   urltools \
   catimg \
+  fancy-ctrl-z \
   # timer \
 )
 

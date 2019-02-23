@@ -167,6 +167,10 @@ set wildmode=full
 set history=200 " increase command history
 set laststatus=2
 
+" folds
+set foldmethod=syntax
+set foldlevel=20
+
 " ctags
 nnoremap <f5> :!ctags -R<CR>
 

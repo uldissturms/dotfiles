@@ -63,3 +63,6 @@ test -e ~/.wakatime.cfg || cp $DOTFILES_SRC/.wakatime.cfg ~
 
 # karabiner
 ln -sf $DOTFILES_SRC/config/karabiner ~/.config
+
+# vs code
+ln -sf $DOTFILES_SRC/vscode/settings.json "$HOME/Library/Application Support/Code/User"

@@ -1,8 +1,0 @@
-{
-  "files.autoSave": "afterDelay",
-  "editor.renderWhitespace": true,
-  "editor.tabSize": 2,
-  "editor.insertSpaces": true,
-  "editor.formatOnType": true,
-  "git.enabled": false
-}

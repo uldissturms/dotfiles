@@ -1,0 +1,10 @@
+{
+    "explorer.confirmDelete": false,
+    "javascript.preferences.quoteStyle": "single",
+    "typescript.preferences.quoteStyle": "single",
+    "todohighlight.isEnable": false,
+    "files.autoSave": "afterDelay",
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.formatOnType": true
+}

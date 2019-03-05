@@ -21,5 +21,6 @@
   "cucumberautocomplete.steps": [
       "src/features/step_definitions/*.steps.ts",
   ],
-  "cucumberautocomplete.strictGherkinCompletion": true
+  "cucumberautocomplete.strictGherkinCompletion": true,
+  "workbench.iconTheme": "vscode-icons"
 }

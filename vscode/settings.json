@@ -17,5 +17,9 @@
     "**/reports": true
   },
   "typescript.updateImportsOnFileMove.enabled": "always",
-  "python.jediEnabled": false
+  "python.jediEnabled": false,
+  "cucumberautocomplete.steps": [
+      "src/features/step_definitions/*.steps.ts",
+  ],
+  "cucumberautocomplete.strictGherkinCompletion": true
 }

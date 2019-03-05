@@ -1,10 +1,21 @@
 {
-    "explorer.confirmDelete": false,
-    "javascript.preferences.quoteStyle": "single",
-    "typescript.preferences.quoteStyle": "single",
-    "todohighlight.isEnable": false,
-    "files.autoSave": "afterDelay",
-    "editor.tabSize": 2,
-    "editor.insertSpaces": true,
-    "editor.formatOnType": true
+  "explorer.confirmDelete": false,
+  "javascript.preferences.quoteStyle": "single",
+  "typescript.preferences.quoteStyle": "single",
+  "todohighlight.isEnable": false,
+  "files.autoSave": "afterDelay",
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.formatOnType": true,
+  "search.exclude": {
+    "**/.cache-loader": true,
+    "**/.nyc_output": true,
+    "**/.webpack": true,
+    "**/bower_components": true,
+    "**/coverage": true,
+    "**/node_modules": true,
+    "**/reports": true
+  },
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "python.jediEnabled": false
 }

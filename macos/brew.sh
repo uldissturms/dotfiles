@@ -35,9 +35,11 @@ brew install m-cli # manage mac from cli
 brew cask install karabiner-elements # custom key bindings
 
 # spacemacs
-brew tap d12frosted/emacs-plus
-brew install emacs-plus
+brew cask install emacs
 
 # fonts
 brew tap homebrew/cask-fonts
 brew cask install font-fontawesome
+
+# dbs
+brew cask install mysql-shell

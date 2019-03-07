@@ -28,3 +28,4 @@ code --install-extension wholroyd.jinja
 code --install-extension yzhang.markdown-all-in-one
 code --install-extension robertohuertasm.vscode-icons
 code --install-extension eamodio.gitlens
+code --install-extension esbenp.prettier-vscode

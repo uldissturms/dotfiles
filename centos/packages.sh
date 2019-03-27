@@ -20,3 +20,6 @@ sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
 sudo sh -c 'echo -e "[code]\nname=Visual Studio Code\nbaseurl=https://packages.microsoft.com/yumrepos/vscode\nenabled=1\ngpgcheck=1\ngpgkey=https://packages.microsoft.com/keys/microsoft.asc" > /etc/yum.repos.d/vscode.repo'
 sudo yum install code -y
 sudo yum install gnome-terminal -y
+bash -c  "$(wget -qO- https://git.io/vQgMr)" # install Gogh - terminal colours
+# themes: 34 89 97 114 115 116 139
+sudo yum install xclip -y

@@ -175,6 +175,9 @@ set foldlevel=20
 " ctags
 nnoremap <f5> :!ctags -R<CR>
 
+" quick-fix
+nnoremap <F9> :YcmCompleter FixIt<CR>
+
 " plugins
 
 " syntastic

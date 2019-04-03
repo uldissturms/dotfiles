@@ -10,6 +10,7 @@
 --ignore-dir=.cache-loader
 --ignore-file=is:tags
 --ignore-file=match:.tmp
+--ignore-file=match:bundle.*.js
 --sort-files
 --color
 --follow

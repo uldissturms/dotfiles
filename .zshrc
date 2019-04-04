@@ -27,6 +27,7 @@ plugins=(
   urltools \
   catimg \
   fancy-ctrl-z \
+  zsh_reload
   # timer \
 )
 

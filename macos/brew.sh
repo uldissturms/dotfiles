@@ -43,3 +43,6 @@ brew cask install font-fontawesome
 
 # dbs
 brew cask install mysql-shell
+
+# compare
+brew cask install beyond-compare

@@ -4,7 +4,13 @@ runtime macros/matchit.vim
 
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
-set rtp+=/usr/local/opt/fzf
+
+if has('unix')
+  set rtp+=~/.fzf
+else
+  set rtp+=/usr/local/opt/fzf
+endif
+
 call vundle#begin()
 
 Plugin 'gmarik/Vundle.vim'

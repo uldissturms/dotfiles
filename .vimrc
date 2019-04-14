@@ -57,6 +57,7 @@ Plugin 'honza/vim-snippets'
 
 " formating
 Plugin 'godlygeek/tabular'
+Plugin 'prettier/vim-prettier'
 
 " config
 Plugin 'thinca/vim-localrc'
@@ -147,6 +148,8 @@ map <leader>q :q<CR>
 nnoremap & :&&<CR>
 xnoremap & :&&<CR>
 
+" formatting
+map <leader>pp :PrettierAsync<CR>
 map <leader>pj :%!jq '.'<CR>
 map <leader>px :%!xmllint --format -<CR>
 
@@ -222,3 +225,9 @@ let g:ale_lint_on_text_changed = 'never'
 
 " youcompleteme
 let g:ycm_key_list_select_completion = []
+
+" prettier
+let g:prettier#autoformat = 0
+let g:prettier#exec_cmd_async = 1
+let g:prettier#quickfix_enabled = 0
+let g:prettier#quickfix_auto_focus = 0

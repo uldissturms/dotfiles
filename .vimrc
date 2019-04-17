@@ -57,7 +57,6 @@ Plugin 'honza/vim-snippets'
 
 " formating
 Plugin 'godlygeek/tabular'
-Plugin 'prettier/vim-prettier'
 
 " config
 Plugin 'thinca/vim-localrc'
@@ -149,7 +148,6 @@ nnoremap & :&&<CR>
 xnoremap & :&&<CR>
 
 " formatting
-map <leader>pp :PrettierAsync<CR>
 map <leader>pj :%!jq '.'<CR>
 map <leader>px :%!xmllint --format -<CR>
 
@@ -217,7 +215,8 @@ let g:ale_linters = {
 \}
 let g:ale_fixers = {
   \'*': ['remove_trailing_lines', 'trim_whitespace'],
-  \'javascript': ['standard']
+  \'javascript': ['standard'],
+  \'typescript': ['tslint']
 \}
 let g:ale_lint_on_text_changed = 'never'
 let g:ale_fix_on_save = 1
@@ -226,9 +225,3 @@ let g:ale_fix_on_save = 1
 
 " youcompleteme
 let g:ycm_key_list_select_completion = []
-
-" prettier
-let g:prettier#autoformat = 0
-let g:prettier#exec_cmd_async = 1
-let g:prettier#quickfix_enabled = 0
-let g:prettier#quickfix_auto_focus = 0

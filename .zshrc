@@ -27,7 +27,8 @@ plugins=(
   urltools \
   catimg \
   fancy-ctrl-z \
-  zsh_reload
+  zsh_reload \
+  nvm
   # timer \
 )
 

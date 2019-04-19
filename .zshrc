@@ -5,6 +5,9 @@ export AWS_DEFAULT_REGION=eu-west-1
 export KEYTIMEOUT=1
 export TIMER_FORMAT='[%d]'
 
+# turn off brew auto update
+export HOMEBREW_NO_AUTO_UPDATE=1
+
 ZSH_THEME="TheOne"
 ZSH_DISABLE_COMPFIX=true
 
@@ -28,7 +31,8 @@ plugins=(
   catimg \
   fancy-ctrl-z \
   zsh_reload \
-  nvm
+  nvm \
+  fzf
   # timer \
 )
 

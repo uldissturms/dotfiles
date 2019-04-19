@@ -8,6 +8,8 @@ alias cdg='cd ~/git'
 
 alias vlc='/Applications/VLC.app/Contents/MacOS/VLC'
 
+alias ctags='/usr/local/bin/ctags'
+
 function light() {
   if [ -z "$2" ]
   then

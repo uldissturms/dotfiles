@@ -48,6 +48,7 @@ Plugin 'tpope/vim-abolish'
 Plugin 'tpope/vim-fugitive'
 Plugin 'tpope/vim-repeat'
 Plugin 'vim-utils/vim-husk'
+Plugin 'tpope/vim-dispatch'
 
 "snippets
 Plugin 'MarcWeber/vim-addon-mw-utils'

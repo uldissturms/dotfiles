@@ -23,3 +23,6 @@ sudo yum install gnome-terminal -y
 bash -c  "$(wget -qO- https://git.io/vQgMr)" # install Gogh - terminal colours
 # themes: 34 89 97 114 115 116 139
 sudo yum install xclip -y
+# flatpack https://flathub.org/repo/flathub.flatpakrepo
+# gimp
+flatpak install https://flathub.org/repo/appstream/org.gimp.GIMP.flatpakref

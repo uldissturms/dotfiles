@@ -25,4 +25,7 @@
   "typescript.format.enable": false,
   "prettier.eslintIntegration": true,
   "prettier.tslintIntegration": true
+  "files.associations": {
+    "*.css": "postcss"
+  },
 }

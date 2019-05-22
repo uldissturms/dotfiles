@@ -11,7 +11,9 @@
 --ignore-file=is:tags
 --ignore-file=match:.tmp
 --ignore-file=match:bundle.*.js
+--ignore-file=match:.latest.js
 --ignore-file=match:test.xml
+--ignore-file=match:.LICENCE
 --sort-files
 --color
 --follow

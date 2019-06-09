@@ -1,6 +1,6 @@
 export SHELL=/bin/zsh
 export ZSH=$HOME/.oh-my-zsh
-export EDITOR=/usr/bin/vim
+export EDITOR=/usr/local/bin/vim
 export AWS_DEFAULT_REGION=eu-west-1
 export KEYTIMEOUT=1
 export TIMER_FORMAT='[%d]'
@@ -19,6 +19,13 @@ setopt HIST_IGNORE_SPACE
 setopt HIST_FIND_NO_DUPS
 setopt HIST_SAVE_NO_DUPS
 setopt HIST_BEEP
+
+# Enable Ctrl-x-e to edit command line
+autoload -U edit-command-line
+# Emacs style
+zle -N edit-command-line
+bindkey '^xe' edit-command-line
+bindkey '^x^e' edit-command-line
 
 plugins=(
   ssh-agent \

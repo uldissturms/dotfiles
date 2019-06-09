@@ -47,4 +47,5 @@ brew cask install \
   karabiner-elements \
   emacs \
   mysql-shell \
-  beyond-compare
+  beyond-compare \
+  google-cloud-sdk

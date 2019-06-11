@@ -8,6 +8,7 @@ brew install \
   ab \
   docker-machine \
   jq \
+  jid \
   go \
   graphviz \
   highlight \
@@ -39,7 +40,9 @@ brew install \
   tldr \
   noti \
   tokei \
-  ctags
+  ctags \
+  shyaml \
+  csvkit
 
 brew cask install \
   font-fontawesome \

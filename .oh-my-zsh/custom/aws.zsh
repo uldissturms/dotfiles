@@ -26,3 +26,14 @@ aws-detach-iot-policy() {
         aws iot detach-principal-policy --policy-name $policy --principal $id
       done
 }
+
+aws-delete-failed-stack-sets() {
+  stack=$1
+  aws cloudformation list-change-sets --stack-name $stack | jq -r '.Summaries | map(select(.Status == "FAILED")) | .[].ChangeSetId' \
+    | while read id
+    do
+      echo "delete change set: $id"
+      aws cloudformation delete-change-set --change-set-name $id
+    done
+
+}

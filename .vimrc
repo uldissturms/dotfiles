@@ -49,6 +49,7 @@ Plugin 'tpope/vim-fugitive'
 Plugin 'tpope/vim-repeat'
 Plugin 'vim-utils/vim-husk'
 Plugin 'tpope/vim-dispatch'
+Plugin 'machakann/vim-swap'
 
 "snippets
 Plugin 'MarcWeber/vim-addon-mw-utils'
@@ -155,6 +156,9 @@ map <leader>px :%!xmllint --format -<CR>
 " open new split panes to right and bottom
 set splitbelow
 set splitright
+
+" do not redraw screen in the middle of a macro
+set lazyredraw
 
 " smart search
 set ignorecase

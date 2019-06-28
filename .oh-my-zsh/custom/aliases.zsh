@@ -12,6 +12,8 @@ alias ctags='/usr/local/bin/ctags'
 
 alias pm='pmake --jobs 5'
 
+alias ag='ag --path-to-ignore ~/.ignore'
+
 function light() {
   if [ -z "$2" ]
   then

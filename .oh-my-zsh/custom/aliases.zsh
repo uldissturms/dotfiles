@@ -10,6 +10,8 @@ alias vlc='/Applications/VLC.app/Contents/MacOS/VLC'
 
 alias ctags='/usr/local/bin/ctags'
 
+alias pm='pmake --jobs 5'
+
 function light() {
   if [ -z "$2" ]
   then

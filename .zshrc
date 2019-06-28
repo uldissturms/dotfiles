@@ -60,7 +60,7 @@ export PATH="$PATH:$HOME/scripts"
 export PATH="$PATH:$HOME/Library/Haskell/bin:$HOME/.local/bin"
 
 # Add latex
-export PATH="$PATH:/Library/TeX/texbin"
+export PATH="$PATH:/usr/local/texlive/2019basic/bin/x86_64-darwin"
 
 # Add Go binaries
 export PATH="$PATH:$HOME/go/bin"

@@ -51,4 +51,5 @@ brew cask install \
   emacs \
   mysql-shell \
   beyond-compare \
-  google-cloud-sdk
+  google-cloud-sdk \
+  basictex

@@ -36,6 +36,11 @@ Plugin 'quramy/tsuquyomi', {'for': 'typescript'}
 " haskell
 Plugin 'neovimhaskell/haskell-vim', {'for': 'haskell'}
 
+" sql
+Plugin 'Align'
+Plugin 'dbext.vim'
+Plugin 'SQLUtilities'
+
 " productivity
 Plugin 'junegunn/fzf.vim'
 Plugin 'mileszs/ack.vim'
@@ -68,6 +73,9 @@ Plugin 'rakr/vim-one'
 
 " metrics
 Plugin 'wakatime/vim-wakatime'
+
+" repl
+Plugin 'jpalardy/vim-slime'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -230,3 +238,14 @@ let g:ale_lint_on_text_changed = 'never'
 
 " youcompleteme
 let g:ycm_key_list_select_completion = []
+
+" slime
+let g:slime_target = "tmux"
+let g:slime_default_config = {"socket_name": "default", "target_pane": "{right-of}"}
+let g:slime_dont_ask_default = 1
+
+" sql
+let g:dbext_default_profile_localhost = 'type=MYSQL:user=root:passwd=root:port=3306:host=localhost'
+let g:dbext_default_profile = 'localhost'
+let g:sqlutil_align_where = 0
+let g:sqlutil_align_comma = 1

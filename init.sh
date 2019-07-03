@@ -43,6 +43,7 @@ TPM_DEST=~/.tmux/plugins/tpm
 test -e $TPM_DEST || git clone https://github.com/tmux-plugins/tpm $TPM_DEST
 ln -sf $DOTFILES_SRC/.tmux.conf ~
 ln -sf $DOTFILES_SRC/.tmux.mac.conf ~
+ln -sf $DOTFILES_SRC/.tmux.linux.conf ~
 
 # utils
 ensure_installed grv

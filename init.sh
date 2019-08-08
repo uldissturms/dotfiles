@@ -8,6 +8,9 @@ function ensure_installed {
 
 DOTFILES_SRC=${DOTFILES_SRC:-~/.dotfiles}
 
+# config
+mkdir -p ~/.config
+
 # init vim
 VUNDLE_DEST=~/.vim/bundle/Vundle.vim
 test -e $VUNDLE_DEST || git clone https://github.com/VundleVim/Vundle.vim.git $VUNDLE_DEST
@@ -63,7 +66,7 @@ ln -sf $DOTFILES_SRC/config/nvim/init.vim ~/.config/nvim/
 test -e ~/.wakatime.cfg || cp $DOTFILES_SRC/.wakatime.cfg ~
 
 # karabiner
-ln -sf $DOTFILES_SRC/config/karabiner ~/
+ln -sf $DOTFILES_SRC/config/karabiner ~/.config/karabiner
 
 # vs code
 VS_CODE_SETTINGS_DIR="$HOME/Library/Application Support/Code/User"

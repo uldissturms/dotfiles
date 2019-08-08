@@ -16,6 +16,7 @@ which eslint || npm i eslint \
   eslint-config-semistandard \
   eslint-plugin-promise \
   eslint-plugin-react \
+  eslint-plugin-jest \
   typescript \
   ts-node \
   @types/node \

@@ -8,6 +8,7 @@
 --ignore-dir=tags
 --ignore-dir=coverage
 --ignore-dir=.cache-loader
+--ignore-dir=.aws-sam
 --ignore-file=is:tags
 --ignore-file=match:.tmp
 --ignore-file=match:bundle.*.js

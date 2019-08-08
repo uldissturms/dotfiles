@@ -7,7 +7,6 @@ brew install \
   tmux \
   cmake \
   ab \
-  docker-machine \
   jq \
   jid \
   go \
@@ -54,4 +53,5 @@ brew cask install \
   mysql-shell \
   beyond-compare \
   google-cloud-sdk \
-  basictex
+  basictex \
+  docker

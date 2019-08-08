@@ -15,7 +15,7 @@ ln -sf $DOTFILES_SRC/.vimrc ~
 vim +PluginInstall +qall
 
 # init zsh
-sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+test -d ~/.oh-my-zsh || sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 curl -o ~/.oh-my-zsh/themes/TheOne.zsh-theme https://raw.githubusercontent.com/benniemosher/the-one-theme/master/zsh/TheOne.zsh-theme
 ln -sf $DOTFILES_SRC/.zshrc ~
 ln -sf ~/.dotfiles/.oh-my-zsh/custom/* ~/.oh-my-zsh/custom/
@@ -66,7 +66,9 @@ test -e ~/.wakatime.cfg || cp $DOTFILES_SRC/.wakatime.cfg ~
 ln -sf $DOTFILES_SRC/config/karabiner ~/
 
 # vs code
-ln -sf $DOTFILES_SRC/vscode/settings.json "$HOME/Library/Application Support/Code/User"
+VS_CODE_SETTINGS_DIR="$HOME/Library/Application Support/Code/User"
+mkdir -p $VS_CODE_SETTINGS_DIR
+ln -sf $DOTFILES_SRC/vscode/settings.json $VS_CODE_SETTINGS_DIR
 
 # prettier
 ln -sv $DOTFILES_SRC/.prettierrc ~/

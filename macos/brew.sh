@@ -5,6 +5,7 @@ brew tap \
 brew install \
   vim \
   tmux \
+  cmake \
   ab \
   docker-machine \
   jq \
@@ -23,7 +24,7 @@ brew install \
   autojump \
   ack \
   htop \
-  reattach-to-user-namespace --wrap-pbcopy-and-pbpaste \
+  reattach-to-user-namespace \
   direnv \
   gpg \
   ansifilter \
@@ -45,6 +46,7 @@ brew install \
   csvkit
 
 brew cask install \
+  visual-studio-code \
   font-fontawesome \
   haskell-platform \
   karabiner-elements \

@@ -1,7 +1,7 @@
 DOTFILES_SRC=${DOTFILES_SRC:-~/.dotfiles}
 
 # ensure node is installed
-which node || brew install node@8
+which node || brew install node
 
 # linting
 
@@ -18,6 +18,7 @@ which eslint || npm i eslint \
   eslint-plugin-react \
   typescript \
   ts-node \
+  @types/node \
   tslint -g
 
 # cloud formation

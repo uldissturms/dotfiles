@@ -31,4 +31,6 @@
   "editor.suggestSelection": "first",
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "files.autoSave": "afterDelay",
+  "telemetry.enableTelemetry": false,
+  "telemetry.enableCrashReporter": false
 }

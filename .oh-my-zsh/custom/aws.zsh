@@ -37,3 +37,20 @@ aws-delete-failed-stack-sets() {
     done
 
 }
+
+aws-unset () {
+  unset AWS_ACCESS_KEY_ID
+  unset AWS_SECRET_ACCESS_KEY
+  unset AWS_SESSION_TOKEN
+}
+
+aws-assume-role () {
+  ACCOUNT=$1
+  ROLE=$2
+  RESULT=$(aws sts assume-role --role-arn "arn:aws:iam::${ACCOUNT}:role/${ROLE}" --role-session-name "$(whoami)-${ACCOUNT}-${ROLE}" --query 'Credentials')
+
+  export AWS_ACCESS_KEY_ID=$(echo $RESULT | jq -r '.AccessKeyId')
+  export AWS_SECRET_ACCESS_KEY=$(echo $RESULT | jq -r '.SecretAccessKey')
+  export AWS_SESSION_TOKEN=$(echo $RESULT | jq -r '.SessionToken')
+}
+

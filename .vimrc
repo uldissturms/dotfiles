@@ -143,7 +143,7 @@ nnoremap <C-h> <C-w>h
 nnoremap <C-l> <C-w>l
 
 " last two files
-nnoremap <Leader><Leader> <C-^>
+nnoremap <leader><leader> <C-^>
 
 " general
 cnoremap <expr> %% getcmdtype() == ':' ? expand('%:h').'/' : '%%' " expand %% to current dir

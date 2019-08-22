@@ -12,7 +12,8 @@
     "**/bower_components": true,
     "**/coverage": true,
     "**/node_modules": true,
-    "**/reports": true
+    "**/reports": true,
+    "**/dist": true
   },
   "typescript.updateImportsOnFileMove.enabled": "always",
   "python.jediEnabled": false,

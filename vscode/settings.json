@@ -34,5 +34,7 @@
   "files.autoSave": "afterDelay",
   "telemetry.enableTelemetry": false,
   "telemetry.enableCrashReporter": false,
-  "window.zoomLevel": 1
+  "window.zoomLevel": 1,
+  "editor.fontLigatures": true,
+  "editor.fontFamily": "Fira Code, Menlo, Monaco, 'Courier New', monospace"
 }

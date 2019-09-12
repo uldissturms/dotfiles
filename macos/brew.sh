@@ -54,4 +54,5 @@ brew cask install \
   beyond-compare \
   google-cloud-sdk \
   basictex \
-  docker
+  docker \
+  tableplus

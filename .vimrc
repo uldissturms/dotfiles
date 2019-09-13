@@ -78,6 +78,9 @@ Plugin 'wakatime/vim-wakatime'
 " repl
 Plugin 'jpalardy/vim-slime'
 
+" status
+Plugin 'itchyny/lightline.vim'
+
 call vundle#end()            " required
 filetype plugin indent on    " required
 
@@ -198,6 +201,7 @@ nnoremap <f5> :!ctags -R<CR>
 
 " quick-fix
 nnoremap <F9> :YcmCompleter FixIt<CR>
+nnoremap ,x :cclose<CR>
 
 " plugins
 
@@ -254,3 +258,6 @@ let g:dbext_default_profile_localhost = 'type=MYSQL:user=root:passwd=root:port=3
 let g:dbext_default_profile = 'localhost'
 let g:sqlutil_align_where = 0
 let g:sqlutil_align_comma = 1
+
+" lightline
+let g:lightline = { 'colorscheme': 'one' }

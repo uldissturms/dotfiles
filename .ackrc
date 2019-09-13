@@ -1,3 +1,4 @@
+--ignore-dir=.venv
 --ignore-dir=node_modules
 --ignore-dir=.tmp
 --ignore-dir=tmp

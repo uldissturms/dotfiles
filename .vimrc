@@ -36,6 +36,9 @@ Plugin 'quramy/tsuquyomi', {'for': 'typescript'}
 " haskell
 Plugin 'neovimhaskell/haskell-vim', {'for': 'haskell'}
 
+" html
+Plugin 'docunext/closetag.vim'
+
 " sql
 Plugin 'Align'
 Plugin 'dbext.vim'
@@ -55,6 +58,8 @@ Plugin 'tpope/vim-repeat'
 Plugin 'vim-utils/vim-husk'
 Plugin 'tpope/vim-dispatch'
 Plugin 'machakann/vim-swap'
+Plugin 'tpope/vim-rhubarb'
+Plugin 'tpope/vim-eunuch'
 
 "snippets
 Plugin 'MarcWeber/vim-addon-mw-utils'

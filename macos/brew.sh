@@ -44,6 +44,7 @@ brew install \
   shyaml \
   csvkit
 
+# geek
 brew cask install \
   visual-studio-code \
   font-fontawesome \
@@ -56,3 +57,8 @@ brew cask install \
   basictex \
   docker \
   tableplus
+
+# drawing
+brew cask install gimp \
+  xquartz \
+  inkscape

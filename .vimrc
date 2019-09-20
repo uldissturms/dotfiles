@@ -44,6 +44,9 @@ Plugin 'Align'
 Plugin 'dbext.vim'
 Plugin 'SQLUtilities'
 
+" terraform
+Plugin 'hashivim/vim-terraform'
+.
 " productivity
 Plugin 'junegunn/fzf.vim'
 Plugin 'mileszs/ack.vim'
@@ -266,3 +269,7 @@ let g:sqlutil_align_comma = 1
 
 " lightline
 let g:lightline = { 'colorscheme': 'one' }
+
+" terraform
+let g:terraform_align=1
+let g:terraform_fmt_on_save=1

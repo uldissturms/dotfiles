@@ -54,3 +54,7 @@ aws-assume-role () {
   export AWS_SESSION_TOKEN=$(echo $RESULT | jq -r '.SessionToken')
 }
 
+
+aws-ec2-list () {
+  aws ec2 describe-instances --query 'Reservations[*].Instances[*].[InstanceId,ImageId,Tags[?Key==`Name`].Value]'
+}

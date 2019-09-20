@@ -56,5 +56,5 @@ aws-assume-role () {
 
 
 aws-ec2-list () {
-  aws ec2 describe-instances --query 'Reservations[*].Instances[*].[InstanceId,ImageId,Tags[?Key==`Name`].Value]'
+  aws ec2 describe-instances --query 'Reservations[*].Instances[*].[InstanceId,ImageId,State.Name,Tags[?Key==`Name`].Value]'
 }

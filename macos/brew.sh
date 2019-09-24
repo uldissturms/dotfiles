@@ -56,7 +56,8 @@ brew cask install \
   google-cloud-sdk \
   basictex \
   docker \
-  tableplus
+  tableplus \
+  kdiff3
 
 # drawing
 brew cask install gimp \

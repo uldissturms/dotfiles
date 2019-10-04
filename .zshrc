@@ -39,7 +39,9 @@ plugins=(
   fancy-ctrl-z \
   zsh_reload \
   nvm \
-  fzf
+  fzf \
+  node \
+  yarn
   # timer \
 )
 

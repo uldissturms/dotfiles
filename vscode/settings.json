@@ -34,7 +34,16 @@
   "files.autoSave": "afterDelay",
   "telemetry.enableTelemetry": false,
   "telemetry.enableCrashReporter": false,
-  "window.zoomLevel": 1,
+  "window.zoomLevel": 0,
   "editor.fontLigatures": true,
-  "editor.fontFamily": "Fira Code, Menlo, Monaco, 'Courier New', monospace"
+  "editor.fontFamily": "Fira Code, Menlo, Monaco, 'Courier New', monospace",
+  "eslint.alwaysShowStatus": true,
+  "eslint.packageManager": "yarn",
+  "eslint.run": "onSave",
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ]
 }

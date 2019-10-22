@@ -23,3 +23,7 @@ function light() {
   fi
   echo $src | highlight -O rtf --syntax $1 --font Inconsolata --style solarized-dark --font-size 24 | pbcopy
 }
+
+function aliases-relink () {
+  ln -sf ~/.dotfiles/.oh-my-zsh/custom/* ~/.oh-my-zsh/custom/
+}

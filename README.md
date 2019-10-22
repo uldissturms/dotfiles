@@ -1,4 +1,4 @@
-### setup
+## setup
 
 ```bash
 DOTFILES_DEST=~/.dotfiles
@@ -8,7 +8,7 @@ $DOTFILES_DEST/init.sh
 
 run ```chsh -s /bin/zsh``` to set zsh as default shell
 
-### structure
+## structure
 
 ```
 .
@@ -24,3 +24,9 @@ run ```chsh -s /bin/zsh``` to set zsh as default shell
 └── windows
     └── settings.json
 ```
+
+## vim
+
+### frequently used files
+
+`.local.vimrc` - local vimrc settings per folder, more info - https://vimawesome.com/plugin/localrc-vim

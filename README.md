@@ -30,3 +30,9 @@ run ```chsh -s /bin/zsh``` to set zsh as default shell
 ### frequently used files
 
 `.local.vimrc` - local vimrc settings per folder, more info - https://vimawesome.com/plugin/localrc-vim
+
+### frequently used key bindings
+
+* `SQL`
+  * `<leader>sel` - execute line
+  * `<leader>se` - execute selection

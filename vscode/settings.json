@@ -31,7 +31,7 @@
   },
   "editor.suggestSelection": "first",
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-  "files.autoSave": "afterDelay",
+  "files.autoSave": "off",
   "telemetry.enableTelemetry": false,
   "telemetry.enableCrashReporter": false,
   "window.zoomLevel": 0,
@@ -45,5 +45,8 @@
     "javascriptreact",
     "typescript",
     "typescriptreact"
-  ]
+  ],
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }

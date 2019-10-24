@@ -40,3 +40,10 @@ run ```chsh -s /bin/zsh``` to set zsh as default shell
     ```vim
     let g:dbext_default_profile_staging = 'type=MYSQL:user=root:passwd=root:port=3306:host=localhost'
     ```
+
+## applications
+
+### networking
+
+* proxies
+  * https://proxyman.io/

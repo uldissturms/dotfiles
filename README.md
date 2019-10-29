@@ -40,6 +40,11 @@ run ```chsh -s /bin/zsh``` to set zsh as default shell
     ```vim
     let g:dbext_default_profile_staging = 'type=MYSQL:user=root:passwd=root:port=3306:host=localhost'
     ```
+* `Code`
+  * unimpaired (`:h unimpaired`)
+    * `[q` and `]q` - next and previous quickfix (unimpaired)
+    * `[e` and `]e` - exchange the current line with one above or below it
+    * `[n` and `]n` - git conflict markers
 
 ## applications
 

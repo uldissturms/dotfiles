@@ -209,7 +209,11 @@ nnoremap <f5> :!ctags -R<CR>
 
 " quick-fix
 nnoremap <F9> :YcmCompleter FixIt<CR>
-nnoremap ,x :cclose<CR>
+nnoremap <leader>x :cclose<CR>
+
+" code navigation
+nnoremap <leader>cd :YcmCompleter GoToDefinition<CR>
+nnoremap <leader>cr :YcmCompleter GoToReferences<CR>
 
 " plugins
 

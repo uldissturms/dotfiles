@@ -214,6 +214,7 @@ nnoremap <leader>x :cclose<CR>
 " code navigation
 nnoremap <leader>cd :YcmCompleter GoToDefinition<CR>
 nnoremap <leader>cr :YcmCompleter GoToReferences<CR>
+nnoremap <leader>ts :TsuSearch
 
 " plugins
 

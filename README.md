@@ -45,6 +45,11 @@ run ```chsh -s /bin/zsh``` to set zsh as default shell
     * `[q` and `]q` - next and previous quickfix (unimpaired)
     * `[e` and `]e` - exchange the current line with one above or below it
     * `[n` and `]n` - git conflict markers
+  * fzf (`:h fzf`)
+    * `<C-p>` - files
+    * `<C-b>` - buffers
+    * `<leader>hc` - command history
+    * `<leader>hs` - search history
 
 ## applications
 

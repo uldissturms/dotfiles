@@ -166,6 +166,7 @@ vnoremap <C-c> "+y " use os copy shortcut
 let mapleader=","
 map <leader>g :Ack<space>
 map <leader>r :source ~/.vimrc<CR>
+map <leader>e :e ~/.vimrc<CR>
 map <leader>w :w<CR>
 map <leader>q :q<CR>
 
@@ -220,6 +221,12 @@ nnoremap <leader>cd :YcmCompleter GoToDefinition<CR>
 nnoremap <leader>cr :YcmCompleter GoToReferences<CR>
 nnoremap <leader>ts :TsuSearch
 
+" linting
+nnoremap <leader>ln :ALENext<CR>
+nnoremap <leader>lp :ALEPrevious<CR>
+nnoremap <leader>lt :ALEToggle<CR>
+nnoremap <leader>lf :ALEFix<CR>
+
 " plugins
 
 " syntastic
@@ -253,7 +260,7 @@ let g:ale_fixers = {
   \'javascript': ['standard'],
   \'typescript': ['tslint']
 \}
-let g:ale_lint_on_text_changed = 'never'
+let g:ale_lint_on_text_changed = 'always'
 " let g:ale_fix_on_save = 1
 " let g:ale_set_loclist = 0
 " let g:ale_set_quickfix = 1

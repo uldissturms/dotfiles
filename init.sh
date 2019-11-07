@@ -81,6 +81,3 @@ ln -sf $DOTFILES_SRC/.ignore ~/
 
 # global mysql config file
 ln -sf $DOTFILES_SRC/.my.cnf ~/
-
-# iterm
-ln -sf $DOTFILES_SRC/config/iterm.plist ~/.config/com.googlecode.iterm2.plist

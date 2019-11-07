@@ -77,8 +77,9 @@ Plugin 'prettier/vim-prettier'
 " config
 Plugin 'thinca/vim-localrc'
 
-" themes
+" themes - colourtokens
 Plugin 'rakr/vim-one'
+Plugin 'chriskempson/base16-vim'
 
 " metrics
 Plugin 'wakatime/vim-wakatime'
@@ -126,9 +127,11 @@ set secure " disallow dangerous commands in per folder configs
 
 syntax enable
 set background=dark
+
 " safely set colorscheme
 try
-  colorscheme one
+  " colorscheme one
+  colorscheme base16-default-dark
 catch
 endtry
 if (has("termguicolors"))

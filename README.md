@@ -57,3 +57,7 @@ run ```chsh -s /bin/zsh``` to set zsh as default shell
 
 * proxies
   * https://proxyman.io/
+
+## references
+
+* https://www.wezm.net/technical/2019/10/useful-command-line-tools/

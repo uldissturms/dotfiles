@@ -42,7 +42,8 @@ brew install \
   tokei \
   ctags \
   shyaml \
-  csvkit
+  csvkit \
+  rust
 
 # geek
 brew cask install \
@@ -63,3 +64,6 @@ brew cask install \
 brew cask install gimp \
   xquartz \
   inkscape
+
+# carg
+cargo install bb # simple process viewer

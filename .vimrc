@@ -89,6 +89,7 @@ Plugin 'jpalardy/vim-slime'
 
 " status
 Plugin 'itchyny/lightline.vim'
+Plugin 'maximbaz/lightline-ale'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -277,7 +278,29 @@ let g:sqlutil_align_comma = 1
 
 " lightline
 let g:lightline = { 'colorscheme': 'one' }
+let g:lightline.component_expand = {
+      \  'linter_checking': 'lightline#ale#checking',
+      \  'linter_warnings': 'lightline#ale#warnings',
+      \  'linter_errors': 'lightline#ale#errors',
+      \  'linter_ok': 'lightline#ale#ok',
+      \ }
+let g:lightline.component_type = {
+      \     'linter_checking': 'left',
+      \     'linter_warnings': 'warning',
+      \     'linter_errors': 'error',
+      \     'linter_ok': 'left',
+      \ }
 
-" terraform
-let g:terraform_align=1
+let g:lightline.active = { 'right': [
+      \ [ 'linter_checking', 'linter_errors', 'linter_warnings', 'linter_ok' ],
+      \ [ 'lineinfo' ],
+      \ [ 'percent' ],
+      \ [ 'fileformat', 'fileencoding', 'filetype' ],
+      \ ] }
+" lightline ale icons
+let g:lightline#ale#indicator_checking = "\uf110 "
+let g:lightline#ale#indicator_warnings = "\uf071 "
+let g:lightline#ale#indicator_errors = "\uf05e "
+let g:lightline#ale#indicator_ok = "\uf00c "
+
 let g:terraform_fmt_on_save=1

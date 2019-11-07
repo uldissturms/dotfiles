@@ -49,6 +49,7 @@ brew install \
 brew cask install \
   visual-studio-code \
   font-fontawesome \
+  font-hack-nerd-font \
   haskell-platform \
   karabiner-elements \
   emacs \

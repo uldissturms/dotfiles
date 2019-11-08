@@ -43,7 +43,8 @@ brew install \
   ctags \
   shyaml \
   csvkit \
-  rust
+  rust \
+  tig # terminal git browser
 
 # geek
 brew cask install \

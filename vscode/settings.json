@@ -24,8 +24,6 @@
   "workbench.iconTheme": "vscode-icons",
   "javascript.format.enable": false,
   "typescript.format.enable": false,
-  "prettier.eslintIntegration": true,
-  "prettier.tslintIntegration": true,
   "files.associations": {
     "*.css": "postcss"
   },

@@ -58,6 +58,7 @@ run ```chsh -s /bin/zsh``` to set zsh as default shell
 * proxies
   * https://proxyman.io/
   * http://anyproxy.io/
+  * https://mitmproxy.org/
 
 ## references
 

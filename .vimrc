@@ -252,7 +252,7 @@ let g:haskell_indent_after_bare_where = 2
 
 " ale
 let g:ale_linters = {
-  \'javascript': ['standard'],
+  \'javascript': ['prettier'],
   \'typescript': ['tsuquyomi', 'tslint']
 \}
 let g:ale_fixers = {

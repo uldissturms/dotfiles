@@ -57,9 +57,18 @@ snippet tos "toString"
 	toString()
 
 # Testing
-snippet t "TAP test"
-	test('${1}', t => {
+snippet t "Jest Test"
+	test('${1}', () => {
 		${0:${VISUAL}}
+	})
+snippet ta "Jest Async Test"
+	test('${1}', async () => {
+		${0:${VISUAL}}
+	})
+snippet etb "Expect to be"
+	expect(${1}).toBe(${2})
+snippet ete "Expect to equal"
+	expect(${1}).toEqual(${2})
 snippet desc "Mocha describe"
 	describe('${1}', () => {
 		${0:${VISUAL}}

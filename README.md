@@ -60,6 +60,11 @@ run ```chsh -s /bin/zsh``` to set zsh as default shell
   * http://anyproxy.io/
   * https://mitmproxy.org/
 
+### time management
+
+* pomodoro
+  * https://github.com/schmich/marinara - chrome
+
 ## references
 
 * https://www.wezm.net/technical/2019/10/useful-command-line-tools/

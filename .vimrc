@@ -91,6 +91,9 @@ Plugin 'jpalardy/vim-slime'
 Plugin 'itchyny/lightline.vim'
 Plugin 'maximbaz/lightline-ale'
 
+" crazies
+Plugin 'ashisha/image.vim'
+
 call vundle#end()            " required
 filetype plugin indent on    " required
 

@@ -105,3 +105,5 @@ snippet isUndef
 	const isUndefined = x => typeof x === 'undefined'
 snippet clone
 	const clone = x => JSON.parse(JSON.stringify(x))
+snippet defaultTo
+	const defaultTo = (x, v) => isUndefined(v) ? x : v

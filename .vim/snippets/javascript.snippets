@@ -103,6 +103,8 @@ snippet ctor
 # One-liners
 snippet isUndef
 	const isUndefined = x => typeof x === 'undefined'
+snippet isNil
+	const isNil = x => x == null
 snippet clone
 	const clone = x => JSON.parse(JSON.stringify(x))
 snippet defaultTo

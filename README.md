@@ -51,6 +51,10 @@ run ```chsh -s /bin/zsh``` to set zsh as default shell
     * `<leader>hc` - command history
     * `<leader>hs` - search history
 
+### hacks
+
+* `vim -u NONE` - open vim with no plugins loaded
+
 ## applications
 
 ### networking

@@ -63,6 +63,8 @@ snippet de
 	debugger
 snippet cl "console.log"
 	console.log(${0}
+snippet clo "console.log"
+	console.log({${1}})${0}
 snippet cll "console.log"
 	console.log('**************************************************')
 	console.log(${0})
@@ -82,6 +84,14 @@ snippet t "Jest Test"
 snippet ta "Jest Async Test"
 	test('${1}', async () => {
 		${0:${VISUAL}}
+	})
+snippet to "Jest Test Only"
+	test.only('${1}', () => {
+		${0:${VISUAL}}
+	})
+snippet ts "Jest Test Solve"
+	test('solve', () => {
+		expect(solve(${1})).toEqual(${2})${0}
 	})
 snippet etb "Expect to be"
 	expect(${1}).toBe(${2})
@@ -108,7 +118,7 @@ snippet isNil
 snippet clone
 	const clone = x => JSON.parse(JSON.stringify(x))
 snippet defaultTo
-	const defaultTo = (x, v) => isUndefined(v) ? x : v
+	const defaultTo = (x, o) => o == null ? x : o
 snippet o
 	{
 		${0}

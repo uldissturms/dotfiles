@@ -256,12 +256,14 @@ let g:haskell_indent_after_bare_where = 2
 " ale
 let g:ale_linters = {
   \'javascript': ['prettier'],
-  \'typescript': ['tsuquyomi', 'tslint']
+  \'typescript': ['tsuquyomi', 'tslint'],
+  \'python': ['flake8']
 \}
 let g:ale_fixers = {
   \'*': ['remove_trailing_lines', 'trim_whitespace'],
   \'javascript': ['standard'],
-  \'typescript': ['tslint']
+  \'typescript': ['tslint'],
+  \'python': ['autopep8', 'isort']
 \}
 let g:ale_lint_on_text_changed = 'always'
 " let g:ale_fix_on_save = 1

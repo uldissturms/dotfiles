@@ -41,7 +41,8 @@ plugins=(
   nvm \
   fzf \
   node \
-  yarn
+  yarn \
+  python
   # timer \
 )
 

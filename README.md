@@ -72,3 +72,7 @@ run ```chsh -s /bin/zsh``` to set zsh as default shell
 ## references
 
 * https://www.wezm.net/technical/2019/10/useful-command-line-tools/
+
+### clipboard
+
+* `copyq` - https://github.com/hluk/CopyQ

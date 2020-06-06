@@ -64,6 +64,10 @@ run ```chsh -s /bin/zsh``` to set zsh as default shell
   * http://anyproxy.io/
   * https://mitmproxy.org/
 
+### system
+
+* osquery
+
 ### time management
 
 * pomodoro

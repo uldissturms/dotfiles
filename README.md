@@ -80,3 +80,10 @@ run ```chsh -s /bin/zsh``` to set zsh as default shell
 ### clipboard
 
 * `copyq` - https://github.com/hluk/CopyQ
+
+### cloud storage
+
+* google drive
+* icloud
+* dropbox
+* mega.nz

@@ -29,7 +29,7 @@ bindkey '^x^e' edit-command-line
 
 plugins=(
   ssh-agent \
-  git git_remote_branch \
+  git \
   vi-mode \
   web-search \
   autojump \

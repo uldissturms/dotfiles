@@ -81,18 +81,12 @@ Plugin 'thinca/vim-localrc'
 Plugin 'rakr/vim-one'
 Plugin 'chriskempson/base16-vim'
 
-" metrics
-Plugin 'wakatime/vim-wakatime'
-
 " repl
 Plugin 'jpalardy/vim-slime'
 
 " status
 Plugin 'itchyny/lightline.vim'
 Plugin 'maximbaz/lightline-ale'
-
-" crazies
-Plugin 'ashisha/image.vim'
 
 call vundle#end()            " required
 filetype plugin indent on    " required

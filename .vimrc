@@ -98,6 +98,9 @@ set shiftwidth=2
 set softtabstop=2
 set expandtab
 
+" cursor
+set cursorline
+
 " quirks
 set backspace=2 " make backspace work like most other apps
 

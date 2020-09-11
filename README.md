@@ -63,6 +63,8 @@ run ```chsh -s /bin/zsh``` to set zsh as default shell
   * https://proxyman.io/
   * http://anyproxy.io/
   * https://mitmproxy.org/
+* shells
+  * https://mosh.org/ (more reliable than ssh on poor connections - e.g., when roaming)
 
 ### system
 
@@ -75,8 +77,12 @@ run ```chsh -s /bin/zsh``` to set zsh as default shell
 
 ## references
 
-* https://www.wezm.net/technical/2019/10/useful-command-line-tools/
-* https://sanctum.geek.nz/arabesque/vim-anti-patterns/
+* cli
+  * https://www.wezm.net/technical/2019/10/useful-command-line-tools/
+* vim
+  * https://sanctum.geek.nz/arabesque/vim-anti-patterns/
+* tmux
+  * http://cheat.errtheblog.com/s/tmux
 
 ### clipboard
 
